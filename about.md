@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Us
-permalink: /about/lightrains
+permalink: /about/yarilabs
 date:   2016-06-13 11:19:48 +0530
 ---
 
