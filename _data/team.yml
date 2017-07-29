@@ -1,36 +1,36 @@
 # Author details.
-- name:   Nikhil Mohan
-  desig:  Managing Director
-  email:  nikhil@lightrains.com
-  bio:    "Co-founder of @lightrainstech"
+- name:  Emanuel Mota 
+  desig: Founder & Developer 
   linkedin: https://in.linkedin.com/in/niksmac
   github:  http://github.com/niksmac
   web:    http://nikhilmohan.in
-  twitter: http://twitter.com/niksmac_
+  twitter: http://twitter.com/emota7
 
-- name:   Sibiraj P.R.
-  desig:  CEO
-  email:  sibiraj@lightrains.com
-  bio:    "Co-founder of @lightrainstech"
-  linkedin: https://www.linkedin.com/in/sibizulu
-  github:  https://github.com/sibizulu
-  web:    http://sibiraj.in
-  twitter: http://twitter.com/sibizulu
+- name:   Filipe Rocha 
+  desig:  Senior Fullstack Engineer 
+  email:  filipe@yarilabs.com
+  bio:    "Experienced Fullstack engineer with very deep understanding of..." 
+  linkedin: https://www.linkedin.com/in/filiperocha
+  github:  http://github.com/realyarilabs
+  web:    http://github.com/realyarilabs
+  twitter: https://twitter.com/yarilabs
 
-- name:   Salu S Nair
-  desig:  Javascript Developer
-  email:  salu.s@lightrains.com
-  bio:    "Javascript Developer"
-  linkedin: https://linkedin.com/in/salusn
-  github:  http://github.com/salusn
-  web:    http://github.com/salusn
-  twitter: https://twitter.com/salusn29
+- name:   Helder Pinto 
+  desig:  Frontend and Mobile Developer 
+  email:  helder@yarilabs.com
+  bio:    "Elm and Javascript Developer"
+  linkedin: https://www.linkedin.com/in/helderjnpinto/
+  github:  http://github.com/realyarilabs
+  web:    http://github.com/realyarilabs
+  twitter: https://twitter.com/yarilabs
 
-- name:   Amal Mohan
-  desig:  Business Development Manager
-  email:  amal@lightrains.com
-  bio:    "Business Development Manager"
-  linkedin: https://linkedin.com/in/amalmkumar
-  github:  http://github.com/amalmkumar
-  web:    https://github.com/amalmkumar
-  twitter: https://twitter.com/amalmkumar
+- name:   Ricardo Justo 
+  desig:  Ruby on Rails engineer 
+  email:  ricardo@yarilabs.com
+  bio:    "Ruby on Rails Developer"
+  linkedin: https://www.linkedin.com/in/ricardojusto
+  github:  http://github.com/realyarilabs
+  web:    http://github.com/realyarilabs
+  twitter: https://twitter.com/yarilabs
+
+
