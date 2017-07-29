@@ -1,37 +1,35 @@
 # Author details.
-niksmac:
-    name:   Nikhil Mohan
-    desig:  Managing Director
-    email:  nikhil@lightrains.com
-    bio:    Ξntrepreneur, Ethereum Blockchain enthusiast, co-founder of @lightrainstech.
-    linkedin: https://in.linkedin.com/in/niksmac
-    github:  http://github.com/niksmac
-    web:    http://nikhilmohan.in
-    twitter: niksmac_
-sibi:
-    name:   Sibiraj P.R
-    desig:  CEO
-    email:  sibiraj@lightrains.com
-    bio:    "Co-founder of @lightrainstech"
-    linkedin: https://www.linkedin.com/in/sibizulu
-    github:  http://github.com/sibizulu
-    web:     http://sibiraj.in
-    twitter: sibizulu
-salusn:
-    name:  Salu S
-    desig:  JavaScript Developer
-    email:  salu.s@lightrains.com
-    bio:   "JavaScript Developer at Lightrains Tech"
-    linkedin: ""
-    github:  http://github.com/salusn
-    web:    "http://github.com/salusn"
-    twitter: ""
-amal:
-    name:  Amal Mohan
-    desig:  Business Development Manager
-    email:  amal@lightrains.com
-    bio:   "Business Development Manager at Lightrains Tech"
-    linkedin: ""
-    github:  http://github.com/amalmkumar
-    web:    https://linkedin.com/in/amalmkumar
-    twitter: "amalmkumar"
+emanuel:
+    name:  Emanuel Mota 
+    desig: Founder & Developer 
+    linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
+    github:  http://github.com/emanuel
+    web:    http://www.yarilabs.com
+    twitter: http://twitter.com/emota7
+filipe:
+    name:   Filipe Rocha 
+    desig:  Senior Fullstack Engineer 
+    email:  filipe@yarilabs.com
+    bio:    "Experienced Fullstack engineer with very deep understanding of..." 
+    linkedin: https://www.linkedin.com/in/filiperocha
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
+helder:
+    name:   Helder Pinto 
+    desig:  Frontend and Mobile Developer 
+    email:  helder@yarilabs.com
+    bio:    "Elm and Javascript Developer"
+    linkedin: https://www.linkedin.com/in/helderjnpinto/
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
+ricardo:
+    name:   Ricardo Justo 
+    desig:  Ruby on Rails engineer 
+    email:  ricardo@yarilabs.com
+    bio:    "Ruby on Rails Developer"
+    linkedin: https://www.linkedin.com/in/ricardojusto
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
