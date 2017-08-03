@@ -12,6 +12,7 @@ $green: #2e8b38;
 $offw: $bodyoff;
 $white: #fff;
 $black: #333;
+$yellow: #ffcc00;
 
 $theFont: "Merriweather Sans", sans-serif;
 
@@ -467,6 +468,12 @@ code {
     color: #000;
   }
 }
+
+  .button.big.yellow.obsa {
+    background: #ffcc00;
+    color: #000;
+  }
+
 .techs {
   padding: 40px 0;
   background: #000000;

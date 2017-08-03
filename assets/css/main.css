@@ -314,6 +314,10 @@ code {
     background: #FFF;
     color: #000; }
 
+.button.big.yellow.obsa {
+  background: #ffcc00;
+  color: #000; }
+
 .techs {
   padding: 40px 0;
   background: #000000;
