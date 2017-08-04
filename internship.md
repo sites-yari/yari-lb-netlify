@@ -27,6 +27,6 @@ We have deepened our core competency by organizing our Creative Department into 
 ## Application Instructions / Public Contact Information
 
 **To Apply:**
-Please email a cover letter and resume to {% include email.html param="link" variable-param=page.variable %} with "Creative Intern” in the subject line. No phone calls please.
+Please email a cover letter and resume to {% include email.html param="link"
+variable-param=page.variable %} with "Creative Intern” in the subject line.
 
-Only applicants invited to interview will be contacted.

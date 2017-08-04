@@ -2,7 +2,7 @@
 layout: post
 title: Careers
 permalink: /about/careers
-date:   2016-06-13 11:19:48 +0530
+date:   2017-08-01 00:00:00 +0530
 
 ---
 
@@ -10,24 +10,35 @@ date:   2016-06-13 11:19:48 +0530
 
     <div class="column ten wide">
       <p>
-        A lot of companies talk about culture, their awesome office, fun events and great perks. But we view culture differently. We believe it's about rallying people who enjoy each other's company and respect each other's skill. It's about working alongside people you rely on to spar with you intellectually one moment, then grab tacos with you the next.
+
       </p>
       <p>
-        We've created a culture that rewards bright, driven, and fun-loving people. We take our work seriously.
-      </p>
-      <strong>At {{ site.title }} you can...</strong>
+      At {{ site.title }} we work in a relaxed and motivating environment. We
+      love to learn and use modern and efective technologies. We follow the code of the
+      Agile Samurai! We always strive for a culture of continuous learning.      </p>
+
+      <strong>The benefits of working with us includes:</strong>
       <ul>
-        <li class="item">Power Customer Success</li>
-        <li class="item">Solve Meaningful Problems</li>
-        <li class="item">Build and Promote Great Technology</li>
         <li class="item">Work with Brilliant People</li>
-        <li class="item">Work in the interesting new technologies</li>
+        <li class="item">Learn and build with Leading Edge Technologies</li>
+        <li class="item">Build great products and solve meaningful problems</li>
+        <li class="item">Work remotely 2 or 3 days per week</li>
       </ul>
+
+
+
       <div class="ui hidden big divider"></div>
 
       {% assign vacancies = site.pages | where: "ptype", "career" %}
 
       <h2>Open Positions</h2>
+      <p>
+      The ideal candidate is able to rapidly build high-quality Mobile
+      and/or Web applications and has an excellent knowledge of open source
+      technologies and programming languages. A very good knowledge
+      of HTML, CSS, SQL and Unix based operating systems and one of
+      these programming languages: Elixir, Ruby, Elm, Javascript.
+      </p>
       <div class="ui middle bulleted aligned animated list">
         {% for post in vacancies %}
           <div class="item"><a href="{{ post.url }}">{{ post.title }}</a></div>
@@ -35,9 +46,10 @@ date:   2016-06-13 11:19:48 +0530
       </div>
 
       <h2>How to Apply?</h2>
-      <p>If you're applying for a developer position, then there is an easy way for you to apply. Check <a href="https://github.com/lightrainstech/join-us.git">this GitHub Repo</a> </p>
+      <p>If you're applying for a developer position, then there is an easy way
+      for you to apply. Check <a href="https://github.com/realyarilabs/join-us.git">this GitHub Repo</a> </p>
       <ul>
-       <li>Fork <a href="https://github.com/lightrainstech/join-us.git">this repository.</a></li>
+       <li>Fork <a href="https://github.com/realyarilabs/join-us.git">this repository.</a></li>
        <li>Read questions in `questions.md`</li>
        <li>Create a new file, name it `answers.md`</li>
        <li>Submit a `Pull Request` once you're finish with all the questions.</li>

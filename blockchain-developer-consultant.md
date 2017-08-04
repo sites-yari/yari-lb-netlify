@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Software Engineer-Blockchain"
-permalink:  /careers/blockchain-developer
-date:       2017-06-20 11:19:48 +0530
+title:      "Software Engineer-Elixir"
+permalink:  /careers/elixir-developer
+date:       2017-08-01 00:00:00 +0530
 ptype:      "career"
 ---
 
@@ -10,18 +10,19 @@ We are looking for an exceptional engineer to join us on the sprint that takes u
 
 ## We're looking for someone with…
  * Excellent programming skills
- * Experience with blockchain applications
- * Good knowledge of cryptography and computer security
+ * Experience with Elixir
  * Experience shipping and maintaining a large software system
 
 ## Desired
- * Experience with writing a dApp on Ethereum
+ * Experience with writing an Elixir App
  * Excellent written and oral communication skills
  * Experience making product decisions
  * Experience contributing to open source projects
 
  **To Apply:**
 
- Please email a cover letter and resume to {% include email.html em="careers@lightrains.com" variable-em=page.variable param="link" variable-param=page.variable %} with "Career Enq: SEB062017” in the subject line. No phone calls please.
+ Please email a cover letter and resume to {% include email.html
+ em="careers@yarilabs.com" variable-em=page.variable param="link"
+ variable-param=page.variable %} with "Career Enq: Elixir-Yari-Labs-01” in the
+ subject line.
 
- Only applicants invited to interview will be contacted.
