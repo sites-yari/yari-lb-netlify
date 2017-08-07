@@ -1,29 +1,30 @@
 ---
 layout: post
-title: Smart Contract Development
+title: Product Development
 permalink: /consulting/smart-contract-solidity
 date:   2017-02-27 11:19:48 +0530
-excerpt: "Smart Contract Development on Ethereum Blockchain using Solidity"
+excerpt: "Product Development on Ethereum Blockchain using Solidity"
 ---
 
-Implement smart contracts to automate enforcement in RootStock and Ethereum. We can write your smart contract's code securely. A smart contract is a computer code that predefines a set of rules under which the parties to that smart contract agree to interact with each other. Once the pre defined rules are met, the agreement is automatically enforced. The code facilitates, verifies, and enforces the negotiation or performance of an agreement or transaction. This is the simplest form of decentralized automation
+We convert your ideas into scalable products, working with you from day one to
+build your Minimum Viable Product (MVP).
 
-## What are Smart Contracts?
-Smart contracts help you send and receive money, shares, property, or anything of value in a transparent, conflict-free and predefined way while avoiding the services of a middleman.
+To build the first MVP we iterate throught the following steps:
 
-## Features
-Smart contracts are capable of tracking performance in real time, and can bring huge cost savings. Compliance and controlling happen on the fly. In order to get external information, a smart contract needs information oracles, which feed the smart contract with external information.
+## Product Design Session
+On a product design session we will explore your idea and make sure we will be in tune regarding what are your expectations and the user needs we have to answer.
 
-Smart Contracts are,
- - Self-verifying
- - Self-executing
- - Tamper resistant
 
-**Smart Contracts can;**
- - Turn legal obligations into automated processes.
- - Guarantee a greater degree of security.
- - Decreasing reliance on trusted intermediaries.
- - Lower transaction costs
+## Detailed Wireframing & Visual Prototype
+The wireframes will be delivered to you in a functional prototype shape, where you can comment, test and approve. After you approve the wireframe prototype, our designers will work on the final look and feel and deliver the mockups prototyped, where you will be able to comment, test and approve.
+
+
+## Development Process
+With a clear idea what your product will work and look like, our developers will start developing.
+
+
+## User Testing
+If you want to see your product working with your final users before go live, we can also make the usability testing.
 
 
 Give us a call and we will help you develop blockchain applications specific to your engineering business methods.  We understand the technology, the platforms, and the developers. Settlement, government, banking, and insurance are all beneficiaries of blockchain applications adjudicated by professional engineers.

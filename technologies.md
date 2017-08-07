@@ -4,11 +4,11 @@ permalink: /about/technology
 title: Technologies
 ---
 
-# Our Technology stack 
+# Our Technology stack
 
 ## Programming languages
 
-<p>All our developers have to master Ruby, Ruby on Rails and Javascript ES6 but we really prefer functional programming languages whenever is possible and there is a good use case </p> 
+<p>All our developers have to master Ruby, Ruby on Rails and Javascript ES6 but we really prefer functional programming languages whenever is possible and there is a good use case </p>
 
 <div class="ui internally celled equal width grid">
   <div class="row">
@@ -46,7 +46,7 @@ title: Technologies
     </div>
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/erlang.jpg" class="ui image small" alt="">
+        <img src="/assets/img/tech/clojure.png" class="ui image small" alt="">
       </div>
     </div>
   </div>
@@ -55,9 +55,9 @@ title: Technologies
 <br>
 <br>
 
-## Web development and mobile frameworks 
+## Web development and mobile frameworks
 
-<p>Most of our web projects are currently in Ruby on Rails and Elixir Phoenix</p> 
+<p>Most of our web projects are currently in Ruby on Rails and Elixir Phoenix</p>
 
 <div class="ui internally celled equal width grid">
   <div class="row">

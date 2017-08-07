@@ -22,7 +22,7 @@
   {% endif %}
 
   {% if page.url == '/' %}
-    {% assign pageTitle = site.title | append: " - Blockchain Consulting" %}
+    {% assign pageTitle = site.title | append: " - Professional Consulting and Product Development" %}
   {% endif %}
 
   {% if page.layout == 'blog' %}
@@ -55,7 +55,7 @@
   {% endif %}
 
   {% if page.url == "/" %}
-    {% assign meta = site.masthead | prepend: "Blockchain Consulting and Development services. Leading Blockchain consultancy company. " | strip %}
+    {% assign meta = site.masthead | prepend: "We are Elixir, Ruby, mobile and product development experts. We can convert your idea into a product or we can help your team on an existing project. " | strip %}
   {% endif %}
 
   {% assign cleanMeta = meta | slugify | replace: "-", " " | capitalize | truncate: 160, "" %}
