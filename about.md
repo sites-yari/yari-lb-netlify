@@ -2,16 +2,20 @@
 layout: post
 title: About Us
 permalink: /about/yarilabs
-date:   2016-06-13 11:19:48 +0530
+date:   2017-08-01 11:19:48 +0530
 ---
+## Our Team and culture
 We are a technology start up with a fantastic and bright team of professionals with a culture of continuous learning. We love great challenges that push further our ability to innovate and create.
 
-We deliver projects all over the world from our Portuguese Office in Braga where our operational team is located. This city is often called the Portuguese Silicon Valey due to all success stories from global tech companies that originated here.
-That is due to a world-class IT engineering training and a great entrepreneurial spirit.
+We deliver projects all over the world from our Portuguese Office in Braga where our operational team is based. Braga is often called the Portuguese Silicon Valey :) with a top university that provides world-class IT engineering and computer science training.
 
-For our clients this is a big advantage as they benefit form this high-quality technical ability and a very good level of English and cost effectiveness when compared with other developed countries.
+Our clients benefit from this high-quality technical ability, the very good
+level of English and cost effectiveness when compared with other developed
+countries.
+
 
 ## What we do
+
 We help clients that need a technical team to develop their product or idea from scratch or established companies that need consulting help to to work on and improve existing products, or help to launch highly tailor made projects. We take pride in delivering state of the art work, whether it’s an Elixir backend, a Ruby on Rails web app, or even a native mobile application.
 
 We're specially focused on functional programming languages although we'll allways have a sweet spot for Ruby and Ruby on Rails. We're offering the following as our key services:
