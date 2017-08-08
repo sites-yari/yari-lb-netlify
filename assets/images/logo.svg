@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="111px" height="112px" viewBox="0 0 111 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="117px" height="118px" viewBox="0 0 117 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
     <title>Logo</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="brand-variations" sketch:type="MSLayerGroup" transform="translate(-307.000000, -328.000000)" fill="#FFCC00">
-            <g id="yarilabs_site" transform="translate(307.000000, 328.000000)" sketch:type="MSShapeGroup">
-                <g id="Logo">
-                    <path d="M57.8306,72.6289 L76.5536,72.6289 L67.1856,56.4319 L57.8306,72.6289 Z" id="Fill-150"></path>
-                    <path d="M44.7349,80.2285 L63.1529,48.2125 L63.2509,48.0725 L72.6369,31.7535 L81.4129,31.7535 L71.5489,48.7915 L89.6369,80.2285 L44.7349,80.2285 Z M29.8559,80.2285 L39.7149,63.1835 L21.6259,31.7535 L30.3389,31.7535 L44.0829,55.5445 L57.8269,31.7535 L66.5359,31.7535 L48.1139,63.7615 L48.0179,63.9045 L38.6309,80.2285 L29.8559,80.2285 Z M44.0829,24.9945 L51.8759,24.9945 L47.9689,31.7535 L44.0829,38.5075 L40.1759,31.7535 L36.2899,24.9945 L44.0829,24.9945 Z M0.5889,111.0465 L110.6829,111.0465 L110.6829,0.9525 L0.5889,0.9525 L0.5889,111.0465 Z" id="Fill-152"></path>
+    <g id="Page-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="brand-variations" sketch:type="MSLayerGroup" transform="translate(-453.000000, -266.000000)">
+            <g id="Group-207" sketch:type="MSShapeGroup">
+                <g id="Logo" transform="translate(453.000000, 266.000000)">
+                    <path d="M0,118 L117,118 L117,0 L0,0 L0,118 Z" id="Fill-156" fill="#222222"></path>
+                    <path d="M47.4473,28.0723 L55.2413,28.0723 L51.3343,34.8313 L47.4473,41.5853 L43.5413,34.8313 L39.6553,28.0723 L47.4473,28.0723 Z" id="Fill-202" fill="#FFFFFF"></path>
+                    <path d="M33.2207,83.3057 L43.0797,66.2607 L24.9907,34.8307 L33.7037,34.8307 L47.4477,58.6227 L61.1917,34.8307 L69.9007,34.8307 L51.4787,66.8397 L51.3827,66.9827 L41.9967,83.3057 L33.2207,83.3057 Z" id="Fill-203" fill="#FFCC00"></path>
+                    <path d="M61.1953,75.707 L79.9173,75.707 L70.5503,59.509 L61.1953,75.707 Z M48.0993,83.306 L66.5173,51.29 L66.6153,51.149 L76.0023,34.831 L84.7763,34.831 L74.9143,51.868 L93.0013,83.306 L48.0993,83.306 Z" id="Fill-204" fill="#FFFFFF"></path>
                 </g>
             </g>
         </g>
