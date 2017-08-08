@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Product Development
-permalink: /consulting/smart-contract-solidity
+permalink: /consulting/product-development
 date:   2017-02-27 11:19:48 +0530
 excerpt: "Product Development on Ethereum Blockchain using Solidity"
 ---
