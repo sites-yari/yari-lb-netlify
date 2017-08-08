@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yari Labs, Ltd
-email: hexlxlo@xyxaxrxixlxaxbxs.com
-pgp: TO BE SET IF SO
+title: Yari Labs
+email: hello@yarilabs.com
+# pgp: TO BE SET IF SO
 slogan: Technology Supercharged
 masthead: "Software <i class=\"ellipsis vertical icon\"></i> Consulting <i class=\"ellipsis vertical icon\"></i> Coaching."
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -20,7 +20,8 @@ github_username:  yarilabs
 googlemap: https://goo.gl/maps/RLpub52RD8H2
 
 address: Rua dos Capelistas, 30 3.º Andar, Sala I
-phone:  351 253 776 740
+phone:  351 253776740
+ukphone: 44 7445007797
 
 # Build settings
 maRkdown: kramdown
