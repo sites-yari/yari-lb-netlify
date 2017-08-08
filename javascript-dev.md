@@ -3,7 +3,6 @@ layout:     post
 title:      JavaScript Engineers
 permalink:  /careers/javascript-engineers
 date:       2016-07-01 11:19:48 +0530
-/* ptype:      "career" */
 ---
 
 We're looking for experienced full-time developers to join our core team who have a strong understanding of web technologies and want to help design, implement, and launch major user-facing features.
