@@ -6,3 +6,4 @@ node_modules
 assets/semantic
 assets/raw
 .gulp-scss-cache
+s3_website.yml
