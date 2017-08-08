@@ -9,7 +9,7 @@
 title: Yari Labs
 email: hello@yarilabs.com
 pgp:
-slogan: Technology Supercharged
+slogan:
 masthead: "Software <i class=\"ellipsis vertical icon\"></i> Consulting <i class=\"ellipsis vertical icon\"></i> Coaching"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yarilabs.com" # the base hostname & protocol for your site
