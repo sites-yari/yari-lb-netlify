@@ -1,4 +1,7 @@
 <div class="footers">
-  +{{ site.phone }} <i class="ellipsis vertical icon"></i> {% include email.html param="link" variable-param=page.variable %} <i class="ellipsis vertical icon"></i> &copy; {{ "now" | date: '%Y' }} All rights reserved
+  +{{ site.phone }} <i class="ellipsis vertical icon"></i>
+  +{{ site.ukphone }} <i class="ellipsis vertical icon"></i>
+  {% include email.html param="link" variable-param=page.variable %}
+  <i class="ellipsis vertical icon"></i> &copy; {{ "now" | date: '%Y' }} All rights reserved
   <p class="slogan">{{site.masthead}} {{site.slogan}}</p>
 </div>

@@ -44,7 +44,7 @@ date:   2017-08-01 00:00:00 +0530
           <div class="item"><a href="{{ post.url }}">{{ post.title }}</a></div>
         {% endfor %}
       </div>
-
+<!--
       <h2>How to Apply?</h2>
       <p>If you're applying for a developer position, then there is an easy way
       for you to apply. Check <a href="https://github.com/realyarilabs/join-us.git">this GitHub Repo</a> </p>
@@ -54,12 +54,13 @@ date:   2017-08-01 00:00:00 +0530
        <li>Create a new file, name it `answers.md`</li>
        <li>Submit a `Pull Request` once you're finish with all the questions.</li>
       </ul>
+      -->
 
 
 
     </div>
     <div class="column six wide">
-      <img src="/assets/img/lightrains-team.jpg" alt="{{ site.title }} Team" class="ui image lazy fluid" />
+      <img src="/assets/img/yari-team.jpg" alt="{{ site.title }} Team" class="ui image lazy fluid" />
       <div class="ui hidden divider"></div>
       {% include contact-detail.html %}
       <br>

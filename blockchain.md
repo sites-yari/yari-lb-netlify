@@ -30,8 +30,7 @@ single part of your development process:
 <br>
 
 
-Give us a call and we will help you develop blockchain applications specific to your engineering business methods.  We understand the technology, the platforms, and the developers. Settlement, government, banking, and insurance are all beneficiaries of blockchain applications adjudicated by professional engineers.
-
+Give us a call and we will help you with one of the consulting solutions that best fit your needs.
 {% include cta.html %}
 
 
