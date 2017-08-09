@@ -12,8 +12,8 @@ pgp:
 slogan:
 masthead: "Software <i class=\"ellipsis vertical icon\"></i> Consulting <i class=\"ellipsis vertical icon\"></i> Coaching"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yarilabs.com" # the base hostname & protocol for your site
-logo: assets/img/yarilabs-logo.svg
+url: "http://www.yarilabs.com" # the base hostname & protocol for your site
+logo: /assets/img/yarilabs-logo.svg
 
 twitter_username: yarilabs
 github_username:  yarilabs
