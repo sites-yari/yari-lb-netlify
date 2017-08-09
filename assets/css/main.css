@@ -161,11 +161,11 @@ blockquote {
   background-position: 0 1.07em; }
 
 img:not(.rgb), .ui.image, .image {
-  -webkit-filter: grayscale(1);
-  -moz-filter: grayscale(1);
-  -ms-filter: grayscale(1);
-  -o-filter: grayscale(1);
-  filter: grayscale(1); }
+  -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -ms-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0); }
 
 img.lb-image {
   -webkit-filter: grayscale(0);
@@ -175,11 +175,11 @@ img.lb-image {
   filter: grayscale(0); }
 
 img:not(.rgb):hover, .ui.image:hover, .image:hover {
-  -webkit-filter: grayscale(0);
-  -moz-filter: grayscale(0);
-  -ms-filter: grayscale(0);
-  -o-filter: grayscale(0);
-  filter: grayscale(0);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  filter: grayscale(1);
   transition-property: filter;
   transition-duration: 1s; }
 

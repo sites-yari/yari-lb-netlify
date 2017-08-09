@@ -273,7 +273,7 @@ blockquote {
 }
 
 img:not(.rgb), .ui.image, .image {
-  @include grayScale(1);
+  @include grayScale(0);
 }
 
 img.lb-image {
@@ -282,7 +282,7 @@ img.lb-image {
 
 img:not(.rgb), .ui.image, .image {
   &:hover {
-    @include grayScale(0);
+    @include grayScale(1);
 
     transition-property: filter;
     transition-duration: 1s;
