@@ -1,2 +1,14 @@
-bin/rename_html_files
-s3_website push
+#!/usr/bin/env ruby
+# we need to remove html extensions so that S3 bucket can serve pretty URLS
+dir = Dir.pwd + "/_site"
+files_to_rename = Dir[ File.join(dir, '**', '*') ].reject { |p| File.directory?(p) || File.extname(p) != '.html' || File.basename(p) == 'index.html' }
+if files_to_rename.size > 0
+  puts "dropping html extensions to files:"
+  files_to_rename.each do |f| 
+    puts f
+    File.rename(f,f.sub(/\.html/,''))
+  end
+  system "s3_website push"
+else
+  puts "Please run: $jekyll build"
+end

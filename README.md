@@ -9,3 +9,8 @@
 3. run `gulp minify`
 4. run `gulp images`
 5. run `gulp favicon`
+
+## To deploy
+bin/deploy_website
+
+you need to previously install and configure s3_website GEM (https://github.com/laurilehmijoki/s3_website)
