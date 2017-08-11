@@ -1,0 +1,2 @@
+bin/rename_html_files
+s3_website push
