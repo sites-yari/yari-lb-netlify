@@ -3,11 +3,18 @@
   </a>
   <img src="{{ site.url | append: '/' | append: site.logo}}" itemprop="image" class="ohidden" alt="{{ site.title }}"/>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="streetAddress">Rua dos Capelistas, 30 - 3 Andar</span><br>
+    <span itemprop="streetAddress">Rua dos Capelistas, 30 - 3rd Floor</span><br>
     <span itemprop="postalCode">4700-307</span> - <span itemprop="addressLocality">Braga</span><br>
-    <span itemprop="addressCountry">Portugal</span><br><br>
-    <i class="send outline icon"></i>{% include email.html param="link" variable-param=page.variable %}<br>
-    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">{{ site.phone }}</a><br>
-    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">{{ site.ukphone }}</a>
+    <span itemprop="addressCountry">Portugal</span><br>
+    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">+{{ site.phone }}</a><br>
   </div>
+  <br>
+  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress">86-90 Paul Street, 3rd Floor</span><br>
+    <span itemprop="postalCode">EC2A 4NE</span> - <span itemprop="addressLocality">London</span><br>
+    <span itemprop="addressCountry">United Kingdom</span><br>
+    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">+{{ site.ukphone }}</a>
+  </div>
+  <br><br>
+  <i class="send outline icon"></i><span itemprop="email">{% include email.html param="link" variable-param=page.variable %}</span><br>
 </div>
