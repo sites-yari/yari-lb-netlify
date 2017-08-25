@@ -28,7 +28,9 @@ title: Technologies
     </div>
     <div class="column">
       <div class="ui center aligned basic segment">
-        <img src="/assets/img/tech/es6.png" class="ui image small" alt="">
+        <a href="http://www.ecma-international.org/ecma-262/6.0/">
+          <img src="/assets/img/tech/es6.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
   </div>
@@ -36,17 +38,23 @@ title: Technologies
   <div class="row">
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/elm.png" class="ui image small" alt="">
+        <a href="http://elm-lang.org/">
+          <img src="/assets/img/tech/elm.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/typescript.jpg" class="ui image small" alt="">
+        <a href="http://www.typescriptlang.org/">
+          <img src="/assets/img/tech/typescript.jpg" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/clojure.png" class="ui image small" alt="">
+        <a href="https://clojure.org/">
+          <img src="/assets/img/tech/clojure.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
   </div>
@@ -63,17 +71,23 @@ title: Technologies
   <div class="row">
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/phoenix.png" class="ui image small" alt="">
+        <a href="http://phoenixframework.org/">
+          <img src="/assets/img/tech/phoenix.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
       <div class="ui center aligned basic segment">
-        <img src="/assets/img/tech/rubyonrails.png" class="ui image small" alt="">
+        <a href="http://rubyonrails.org/">
+          <img src="/assets/img/tech/rubyonrails.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
       <div class="ui center aligned basic segment">
-        <img src="/assets/img/tech/angular2.jpg" class="ui image small" alt="">
+        <a href="https://angular.io/">
+          <img src="/assets/img/tech/angular2.jpg" class="ui image small" alt="">
+        </a>
       </div>
     </div>
   </div>
@@ -81,12 +95,16 @@ title: Technologies
   <div class="row">
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/androidsdk.png" class="ui image small" alt="">
+        <a href="https://developer.android.com/index.html">
+          <img src="/assets/img/tech/androidsdk.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
       <div class="ui center aligned basic centered segment">
-        <img src="/assets/img/tech/ionic.png" class="ui image small" alt="">
+        <a href="http://ionicframework.com/">
+          <img src="/assets/img/tech/ionic.png" class="ui image small" alt="">
+        </a>
       </div>
     </div>
     <div class="column">
