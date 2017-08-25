@@ -1,19 +1,20 @@
 ---
 layout: work
-title:  "Atlaschain"
+title:  "Surfterra - Connecting surfers and Photographers"
 subtitle: "Blockchain based decentralised, permissioned GIS and data management platform."
 date:   2017-01-21 01:01:01 +0530
-categories: ["Blockchain", "Ethereum", "Smart Contract"]
+categories: ["Rails", "Ruby", "Products", "Consulting", "Web App"]
 images: ["atlaschain.png", "atlaschain-map.png", "atlaschain-register.png"]
-permalink: /work/atlaschain-gis-blockchain
-excerpt: "Atlaschain is a Decentralised, Permissioned Blockchain based GIS and digital assets platform."
+permalink: /work/surfterra-web
+excerpt: "Surfterra is a web platform that connects surfers and photographers"
+
 work:
-  name: Lightrains Tech
-  github: atlaschain/geojson.io
-  url: https://atlaschain.github.io
-  client: https://lightrains.com
+  name: Surfterra - social network for photographers and surfers 
+  url: https://www.surfterra.com
+  client: https://www.surfterra.com/about
 ---
 
+Surfterra is a web platform that connects surfers and photographers
 Atlaschain is a Decentralised, Permissioned Blockchain based GIS and digital assets platform.
 
 Maps are a precious resource and location is a powerful way to visualise and understand data. However getting data on a map and distributing it in a decentralised manner has been a challenge. We want to make GIS data available to everyone in a decentralised and permissioned (if needed) manner using blockchains. In addition, we want to use the blockchain as a proof of record for the existence of the data.
