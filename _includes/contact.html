@@ -1,7 +1,7 @@
-<div class="footers">
+<div class="footers" style="margin-top: 40px!important;">
   <a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">+{{ site.phone }}</a><i class="ellipsis vertical icon"></i>
   <a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">+{{ site.ukphone }}</a><i class="ellipsis vertical icon"></i>
   {% include email.html param="link" variable-param=page.variable %}
-  <i class="ellipsis vertical icon"></i> &copy; {{ "now" | date: '%Y' }} All rights reserved
+  <i class="ellipsis vertical icon"></i><span style="color: #fc0!important;"> &copy; {{ "now" | date: '%Y' }} All rights reserved</span>
   <p class="slogan">{{site.masthead}} {{site.slogan}}</p>
 </div>

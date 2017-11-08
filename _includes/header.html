@@ -1,35 +1,61 @@
-<header class="site-header">
-  <div class="widescreen computer mobile only">
+<header class="site-header" style="margin-top: -25px!important;">
 
+  <!-- |============| Mobile |=====================================|  -->
+  <div class="ui inverted top sidebar vertical menu">
+    <!--<a class="item" href="/"><i class="home icon"></i>Home</a>
+    <a class="item" href="/about/yarilabs"><i class="smile icon"></i>About</a>
+    <a class="item" href="/about/portfolio"><i class="shipping icon"></i>Work</a> 
+    <a class="item" href="/consulting"><i class="spy icon"></i>Expert</a>
+    <a class="item" href="/blogs"><i class="block layout icon"></i>Blog</a> 
+    <a class="item" href="/about/contact"><i class="send icon"></i>Contact</a>-->
+    <a class="item" href="/about/yarilabs" 
+        style="color: #ffffff!important; font-weight: bold;"><i class="smile icon"></i>About Us</a>
+    <a class="item" href="/about/careers" 
+        style="color: #ffffff!important; font-weight: bold;"><i class="shipping icon"></i>Careers</a>
+    <a class="item" href="/consulting/company-consulting" 
+        style="color: #ffffff!important; font-weight: bold;"><i class="spy icon"></i>Consulting</a>
+    <a class="item" href="/consulting/product-development" 
+        style="color: #ffffff!important; font-weight: bold;"><i class="block layout icon"></i>Product Development</a>
+    <a class="item" href="/about/contact" 
+        style="color: #ffffff!important; font-weight: bold;"><i class="send icon"></i>Contact</a>
+  </div>
+
+  <div class="widescreen computer mobile only"style="margin-left:20px;">
     <div class="ui secondary menu">
       <a href="/" class="item left" title="Home of {{site.title}}">
-         <img class="rgb" src="/assets/images/logo.svg" alt="" width="300px">
+         <img class="rgb" src="/assets/images/fordark_logo.png" alt="" style="width: 200px!important;">
       </a>
 
       <a href="/" class="item right" id="mobmenu"><i class="content right big icon" ></i></a>
     </div>
-
-
   </div>
-  <div class="ui secondary pointing menu large screen only">
-    <div class="left menu">
+    <!-- |============| END Mobile |=====================================|  -->
+
+
+  <div class="ui secondary pointing menu large screen only" >
+    <div class="left menu"style="margin-left:60px;">
       <a href="/" title="Home of {{site.title}}">
-         <img class="rgb" src="/assets/images/logo_for_white.svg" alt="" width="250px">
+         <img class="rgb" src="/assets/images/fordark_logo.png" alt="" width="250px">
       </a>
     </div>
-    <div class="right menu" id="menu">
-      <div class="ui dropdown pointing item">
+
+    <div class="right menu" id="menu" style="margin-right:60px;">
+      <div class="ui dropdown pointing item" style="color: #ffffff;">
         Company<i class="dropdown icon"></i>
         <div class="menu">
-          <a class="item" title="About {{site.title}}" href="/about/yarilabs">About Us</a>
-          <a class="item" title="Careers at {{site.title}}" href="/about/careers">Careers</a>
-          <a class="item" title="Consulting" href="/consulting/company-consulting">Consulting</a>
-          <a class="item" title="Product Development" href="/consulting/product-development">Product Development</a>
+          <a class="item" title="About {{site.title}}" href="/about/yarilabs"><i class="smile icon"></i>About Us</a>
+          <a class="item" title="Careers at {{site.title}}" href="/about/careers"><i class="shipping icon"></i>Careers</a>
+          <a class="item" title="Consulting" href="/consulting/company-consulting"><i class="spy icon"></i>Consulting</a>
+          <a class="item" title="Product Development" href="/consulting/product-development"><i class="block layout icon"></i>Product Development</a>
         </div>
       </div>
       {% comment %} <a class="item" href="/about/portfolio">Work</a> {% endcomment %}
       {% comment %} <a class="item" title="Blog" href="/blogs">Blog</a> {% endcomment %}
-      <a class="item" title="Contact {{site.title}}" href="/about/contact">Contact</a>
+      <a class="item" title="Contact {{site.title}}" href="/about/contact" 
+          style="color: #ffffff!important;"><i class="send icon"></i>Contact</a>
     </div>
   </div>
+  <hr style="border-color: #fc0; 
+            margin-top: 20px!important;
+            margin-bottom: -10px!important;" width="100%">
 </header>

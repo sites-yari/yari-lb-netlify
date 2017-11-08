@@ -5,46 +5,29 @@ layout: compress
 <html>
 {% include head.html %}
 <body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}">
-  <div class="ui inverted top sidebar vertical menu" style="">
-    <a class="item" href="/">
-      <i class="home icon"></i>
-      Home
-    </a>
-    <a class="item" href="/about/yarilabs">
-      <i class="smile icon"></i>
-      About
-    </a>
-    {% comment %} <a class="item" href="/about/portfolio"> {% endcomment %}
-    {% comment %}   <i class="shipping icon"></i> {% endcomment %}
-    {% comment %}   Work {% endcomment %}
-    {% comment %} </a> {% endcomment %}
-    <a class="item" href="/consulting">
-      <i class="spy icon"></i>
-      Expert
-    </a>
-    {% comment %} <a class="item" href="/blogs"> {% endcomment %}
-    {% comment %}   <i class="block layout icon"></i> {% endcomment %}
-    {% comment %}   Blog {% endcomment %}
-    {% comment %} </a> {% endcomment %}
-    <a class="item" href="/about/contact">
-      <i class="send icon"></i>
-      Contact
-    </a>
-  </div>
-
   <div class="pusher">
-    <div class="ui container">
+    <div class="ui container" style=" background-color: #1b1c1d; width: 100%!important; margin-top: -20px; margin-left: 0!important;">
       {% include header.html %}
     </div>
+
+    <!-- |========================| CONTENT |==========================|  -->
+    {% if page.url == "/" %}    
     <div class="ui container">
       {{ content }}
     </div>
+    {% else %}
+    <div class="ui container" style="margin-top: 30px;">
+      {{ content }}
+    </div>
+    {% endif %}
+    <!-- |======================| end CONTENT |========================|  -->
+
     {% if page.url == "/" %}
       {% include technologies.html %}
       {% include techstack.html %}
     {% endif %}
     <div class="fullw">
-      <div class="ui container footer">
+      <div class="ui container footer" style="width: 100%!important; margin-top: -20px; margin-left: 0!important;">
         {% include footer.html %}
       </div>
     </div>
