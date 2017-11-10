@@ -2,11 +2,12 @@
   {% include portfoliohead.html %}
   <!-- Categorias , Vai buscar todas as catergorias adicionadas nos posts -->
   {% assign portfolios = site.posts | where: "layout" , "work" %}
-  <div id="filters" style="margin-top: -35px!important; margin-bottom: 40px!important;">
+  <div id="filters" style="margin-top: -35px!important; margin-bottom: 40px!important;" align="center">
     <a class="ui label large black" data-filter="*">Show All</a>
     {% for category in site.categories %}
     <a class="ui large label" data-filter=".{{ category | first | capitalize | replace: " ", "" }}">{{ category | first }}</a>
     {% endfor %}
+    <hr width="95%">    
   </div>
 
   <!-- Posts -->

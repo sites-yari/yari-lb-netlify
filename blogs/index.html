@@ -2,9 +2,7 @@
 layout: default
 title: Blogs - Explaining Blockchain, Elm, ES6 and what not.
 excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and what not."
-pagination:
-  enabled: true
-  class: blog
+
 ---
 
 {% include bloghead.html %}
@@ -15,6 +13,7 @@ pagination:
 
   {% for page in blog %}
   <div class="column eight wide">
+    <hr align="left" width="80%">
     <h2 class="ui header large">
       <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
       <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
@@ -41,7 +40,7 @@ pagination:
       <span class="ui left small labeled icon floated button"><i class="left arrow icon"></i>Previous</span>
       {% endif %}
       <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
+      {% if paginator.next_page  %}
       <a href="{{ paginator.next_page_path }}" class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></a>
       {% else %}
       <span class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></span>
