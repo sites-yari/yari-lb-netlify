@@ -2,9 +2,10 @@
 layout: blog
 title: "We are live"
 date: 2017-08-08
-tag: ["welcome"]
+tag: ["blog"]
 permalink: /blogs/we-are-live
 author: yarilabs
+class: blog
 meta: 
 subtitle: 
 ---

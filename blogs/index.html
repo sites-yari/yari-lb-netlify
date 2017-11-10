@@ -2,26 +2,22 @@
 layout: default
 title: Blogs - Explaining Blockchain, Elm, ES6 and what not.
 excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and what not."
+pagination:
+  enabled: true
+  class: blog
 ---
 
 {% include bloghead.html %}
 
 <div class="ui equal width stackable two column grid">
 
-  {% for page in paginator.posts %}
+  {% assign blog = paginator.posts | where: "class", "blog" %}
 
-  {% assign meta = page.meta | prepend: "/assets/img/blog/" |  prepend: site.baseurl %}
-  {% assign text = page.title | replace: ' ', '+' %}
-  {% if page.meta == null %}
-  {% assign meta = page.images.first | prepend: "/assets/img/work/460/" |  prepend: site.baseurl %}
-  {% endif %}
-  {% capture loop_index %}{{ loop_index | plus:1 }}{% endcapture %}
-
+  {% for page in blog %}
   <div class="column eight wide">
-    <a href="{{page.url}}" title="{{page.title}}"><img src="{{ meta }}" alt="{{page.title}}" class="ui image fluid"></a>
-
     <h2 class="ui header large">
-      {{page.title}}
+      <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
+      <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
       <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
     </h2>
 
@@ -31,9 +27,11 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
   {% endfor %}
 </div>
 
+<!-- Espaços em branco -->
 <div class="ui divider hidden big"></div>
 <div class="ui divider hidden big"></div>
 
+<!-- Paginator -->
 <div class="ui grid">
   <div class="eight wide column">
     <div class="pagination">
@@ -48,6 +46,17 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
       {% else %}
       <span class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></span>
       {% endif %}
+      <!--{% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
+      {% else %}
+        <span class="previous_page disabled">P&aacute;gina anterior</span>
+      {% endif %}
+      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Pr&oacute;xima p&aacute;gina</a>
+      {% else %}
+        <span class="next_page disabled">Pr&oacute;xima p&aacute;gina</span>
+      {% endif %}-->
     </div>
   </div>
 </div>

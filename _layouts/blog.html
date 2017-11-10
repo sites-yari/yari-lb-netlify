@@ -11,17 +11,19 @@ layout: default
     {% if page.subtitle %}
       <h2 class="post-subtitle" itemprop="name headline">{{ page.subtitle }}</h2>
     {% endif %}
+
     {% if page.meta %}
       <img class="ui fluid image" id="tgiv_cover" src="{{ page.meta | prepend:"/assets/img/blog/" | prepend: site.baseurl }}" alt="{{ page.title }}">
       <div class="ui hidden divider"></div>
     {% endif %}
-    {% include author.html %}
-
+    
+    <!-- Caso o autor introduzido no post existir no ficheiro "authors.yml", aparecera um texto de quem/quando/onde foi publicado -->
+    {% include author.html %} 
     <article>
       {{ content }}
     </article>
 
-    {% include comments.html %}
+    {% include comments.html %} <!-- Caixa de aviso (grey box) -->
   </div>
   <div class="ui five wide column">
     <div class="ui hidden divider"></div>

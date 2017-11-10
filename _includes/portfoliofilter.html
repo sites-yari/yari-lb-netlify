@@ -1,11 +1,15 @@
 <div id="portfolios">
+  {% include portfoliohead.html %}
+  <!-- Categorias , Vai buscar todas as catergorias adicionadas nos posts -->
   {% assign portfolios = site.posts | where: "layout" , "work" %}
-  <div id="filters">
+  <div id="filters" style="margin-top: -35px!important; margin-bottom: 40px!important;">
     <a class="ui label large black" data-filter="*">Show All</a>
     {% for category in site.categories %}
     <a class="ui large label" data-filter=".{{ category | first | capitalize | replace: " ", "" }}">{{ category | first }}</a>
     {% endfor %}
   </div>
+
+  <!-- Posts -->
   <div class="ui hidden divider"></div>
   <div class="portfolio">
     {% for page in portfolios %}
@@ -19,8 +23,9 @@
     <div class="work {{ allTags }}"  >
       <div class="overlay">
         <a href="{{page.url}}" class="white">
-          <img class="ui image link" src="{{page.images[0] | prepend: "/assets/img/work/460/" | prepend: site.baseurl }}" alt="{{page.title}}">
-          <div class="ui bottom right attached black large label"> {{page.title}}</div>
+          <div class="ui image link">{{page.title}}</div>
+          <div class="ui bottom right attached black large label" 
+              style="bottom: auto!important; left: 0px!important;"> {{page.title}}</div>
         </a>
       </div>
     </div>
