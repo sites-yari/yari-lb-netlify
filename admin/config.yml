@@ -1,0 +1,59 @@
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+
+backend:
+  name: git-gateway
+  repo: https://github.com/sites-yari/yarilabs-netlify
+  branch: master # Branch to update (optional; defaults to master)
+  site_domain: yarilabs.netlify.com
+
+collections:
+#====================| POSTS |===================================================|  
+  #-----| Blogs |------------------------------|
+  - name: "blogs"
+    label: "Blogs"
+    folder: "_posts/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "TAG", name: "tag", widget: "hidden", default: "[blog]" }
+      - { label: "Autor", name: "author", widget: "string" }
+      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
+      - { label: "Class", name: "class", widget: "hidden", default: "blog" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  #-----| Artigos |-------------------------------|
+  - name: "work"
+    label: "Portfolio / work"
+    folder: "_posts/work"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Subtitulo", name: "subtitle", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Categorias", name: "categories", widget: "select", options: [ "Blockchain", "Ethereum" ,
+           "Open Source" , "Consulting", "Android", "Smart Contract", "Rails", "Ruby", "Products", "Web App"]  }
+      - { label: "Imagems", name: "images", widget: "image" }
+      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - label: "Work"
+        name: "work" 
+        widget: "object"
+        fields:
+          - { label: "Nome", name: "name" , widget: "string" }
+          - { label: "URL", name: "url" , widget: "string" }
+          - { label: "Cliente", name: "client" , widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "data" #|=====================| DATA |====================================================|
+    label: "Data"
+    editor:
+      preview: true
+    files:
+      - { label: "t", name: "t" , widget: "string" }
+

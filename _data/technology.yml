@@ -1,0 +1,57 @@
+programming:
+  -
+    stack1:
+        title: Elixir programming Language
+        img: /assets/img/tech/elixir.png
+        link: https://elixir-lang.org/?ref=yarilabs
+    stack2:
+        title: 
+        img: /assets/img/tech/ruby.png
+        link: https://www.ruby-lang.org/pt/
+    stack3:
+        title: 
+        img: /assets/img/tech/es6.png
+        link: http://www.ecma-international.org/ecma-262/6.0/
+  -
+    stack1:
+        title: 
+        img: /assets/img/tech/elm.png
+        link: http://elm-lang.org/
+    stack2:
+        title: 
+        img: /assets/img/tech/typescript.jpg
+        link: http://www.typescriptlang.org/
+    stack3:
+        title: 
+        img: /assets/img/tech/clojure.png
+        link: https://clojure.org/
+  
+
+
+web:
+  -
+    stack1:
+        title: 
+        img: /assets/img/tech/phoenix.png
+        link: http://phoenixframework.org/
+    stack2:
+        title: 
+        img: /assets/img/tech/rubyonrails.png
+        link: http://rubyonrails.org/
+    stack3:
+        title: 
+        img: /assets/img/tech/angular2.jpg
+        link: https://angular.io/
+  -
+    stack1:
+        title: 
+        img: /assets/img/tech/androidsdk.png
+        link: https://developer.android.com/index.html
+    stack2:
+        title: 
+        img: /assets/img/tech/ionic.png
+        link: http://ionicframework.com/
+    stack3:
+        title: ...
+        img: 
+        link: #

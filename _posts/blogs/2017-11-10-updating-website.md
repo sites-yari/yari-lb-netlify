@@ -4,7 +4,7 @@ title: "Updating Yarilabs Website"
 date: 2017-11-10
 tag: ["blog"]
 permalink: /blogs/updating-yarilabs-website
-author: victor
+author: ricardo
 class: blog
 meta: 
 subtitle: Testing New blog
