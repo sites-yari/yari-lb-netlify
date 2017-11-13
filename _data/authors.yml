@@ -2,6 +2,8 @@
 emanuel:
     name:  Emanuel Mota 
     desig: Founder & Developer 
+    email:  emanuel@yarilabs.com
+    bio:    "Experienced Fullstack engineer ..."
     linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
     github:  http://github.com/emanuel
     web:    http://www.yarilabs.com
@@ -35,19 +37,19 @@ ricardo:
     twitter: https://twitter.com/yarilabs
 victor:
     name:   Victor 
-    desig:  
+    desig:  Jekyll Web Developer
     email:  victor@yarilabs.com
-    bio:    
-    linkedin: 
+    bio: "Jekyll Web Developer"   
+    linkedin: #
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
 xavier:
     name:   Xavier
-    desig:  
+    desig:  Python and elm engineer
     email:  xavier@yarilabs.com
-    bio:    
-    linkedin: 
+    bio: "Python and elm engineer"   
+    linkedin: #
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs

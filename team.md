@@ -2,7 +2,7 @@
 layout: default
 permalink: /about/team
 title: Team behind the Scene
-published: false
+published: true
 ---
 
 # Team behind the Scene

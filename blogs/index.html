@@ -13,14 +13,21 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 
   {% for page in blog %}
   <div class="column eight wide" >
-      <hr align="left" width="80%">
+      <!--<hr align="left" width="80%">
       <h2 class="ui header large">
         <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
         <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
         <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
       </h2>
 
-      <a href="{{page.url}}" title="{{page.title}}" class="ui black button">Read More...</a>
+      <a href="{{page.url}}" title="{{page.title}}" class="ui black button" style="background-color: #444!important;">Read More...</a>-->
+      <a href="{{page.url}}" title="{{page.title}}" class="imgs container">
+          <img class="img-responsive" src="../../assets/img/yari-team.jpg" width="70%">      
+          <div>
+            {{page.title}}
+            <h5 style="margin-top: -7px;">Author: {{page.author}}</h5>
+          </div>
+      </a>
   </div>
   {% endfor %}
 </div>

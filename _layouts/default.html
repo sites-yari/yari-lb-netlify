@@ -15,7 +15,7 @@ layout: compress
     <div class="ui container">
       {{ content }}
     </div>
-    {% elsif page.url == "/consulting/company-consulting" %}
+    {% elsif page.url == "/consulting/company-consulting" %} <!-- Se for a pagina consulting + includes -->
     <div class="ui container" style="margin-top: 30px;">
       {{ content }}
     </div>
@@ -30,7 +30,7 @@ layout: compress
       {% include technologies.html %}
       {% include techstack.html %}
 
-    {% elsif page.url == "/consulting/company-consulting" %}
+    {% elsif page.url == "/consulting/company-consulting" %} <!-- Se for a pagina consulting + includes -->
       {% include company_services.html %} 
       {% include consult-dev-contact.html %}   
     {% endif %}
