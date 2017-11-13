@@ -11,7 +11,7 @@ layout: compress
     </div>
 
     <!-- |========================| CONTENT |==========================|  -->
-    {% if page.url == "/" %}    
+    {% if page.url == "/" %} <!-- Se for a pagina index -->
     <div class="ui container">
       {{ content }}
     </div>
@@ -22,7 +22,7 @@ layout: compress
     {% endif %}
     <!-- |======================| end CONTENT |========================|  -->
 
-    {% if page.url == "/" %}
+    {% if page.url == "/" %} <!-- Se for a pagina index -->
       {% include technologies.html %}
       {% include techstack.html %}
     {% endif %}

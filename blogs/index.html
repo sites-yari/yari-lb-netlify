@@ -12,16 +12,15 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
   {% assign blog = paginator.posts | where: "class", "blog" %}
 
   {% for page in blog %}
-  <div class="column eight wide">
-    <hr align="left" width="80%">
-    <h2 class="ui header large">
-      <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
-      <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
-      <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
-    </h2>
+  <div class="column eight wide" >
+      <hr align="left" width="80%">
+      <h2 class="ui header large">
+        <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
+        <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
+        <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
+      </h2>
 
-    <a href="{{page.url}}" title="{{page.title}}" class="ui black button">Read More...</a>
-
+      <a href="{{page.url}}" title="{{page.title}}" class="ui black button">Read More...</a>
   </div>
   {% endfor %}
 </div>
@@ -34,7 +33,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 <div class="ui grid">
   <div class="eight wide column">
     <div class="pagination">
-      {% if paginator.previous_page %}
+      <!--{% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="ui left small labeled icon floated button"><i class="left arrow icon"></i>Previous</a>
       {% else %}
       <span class="ui left small labeled icon floated button"><i class="left arrow icon"></i>Previous</span>
@@ -44,7 +43,8 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
       <a href="{{ paginator.next_page_path }}" class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></a>
       {% else %}
       <span class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></span>
-      {% endif %}
+      {% endif %}-->
+      
       <!--{% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
       {% else %}
