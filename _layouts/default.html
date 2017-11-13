@@ -15,6 +15,10 @@ layout: compress
     <div class="ui container">
       {{ content }}
     </div>
+    {% elsif page.url == "/consulting/company-consulting" %}
+    <div class="ui container" style="margin-top: 30px;">
+      {{ content }}
+    </div>
     {% else %}
     <div class="ui container" style="margin-top: 30px;">
       {{ content }}
@@ -25,6 +29,10 @@ layout: compress
     {% if page.url == "/" %} <!-- Se for a pagina index -->
       {% include technologies.html %}
       {% include techstack.html %}
+
+    {% elsif page.url == "/consulting/company-consulting" %}
+      {% include company_services.html %} 
+      {% include consult-dev-contact.html %}   
     {% endif %}
     <div class="fullw">
       <div class="ui container footer" style="width: 100%!important; margin-top: -20px; margin-left: 0!important;">

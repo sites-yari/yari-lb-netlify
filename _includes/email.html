@@ -1,4 +1,11 @@
 {% assign class = "obsa" %}
 {% if include.param == "button" %}
   {% assign class = "ui button big yellow obsa" %}
-{% endif %} <a href="mailto:{{site.email}}" title="Email to {{site.title}}" class="{{class}}">{{site.email}}</a>
+{% endif %} 
+{% if page.url == "/about/contact" or page.url == "/about/careers" %}
+<a href="mailto:{{site.email}}" title="Email to {{site.title}}" class="{{class}}" style="color: #ffcc00!important;">{{site.email}}</a>
+{% else %}
+<a href="mailto:{{site.email}}" title="Email to {{site.title}}" class="{{class}}">{{site.email}}</a>
+{% endif %}
+
+

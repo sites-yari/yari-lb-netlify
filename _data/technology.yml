@@ -55,3 +55,41 @@ web:
         title: ...
         img: 
         link: #
+
+
+index:
+  -
+    info1:
+        icon: connectdevelop icon
+        title: Consulting
+        text: Some of our projects are two-month engagements while other are for the long haul. Sometimes we’re brought on to help an existing company dive into new territory, other times we will be working together with your team to make sure you get your products ready, on budget and on time.
+    info2:
+        icon: terminal icon
+        title: Product Development
+        text: We transform your ideas into brilliant scalable products. For us collaboration is a base assumption about how we work, we integrate your input at every stage of a project. While we always strive to go to market quickly, we never sacrifice quality for speed.
+  -
+    info1:
+        icon: puzzle icon
+        title: Training
+        text: Training is part of our DNA! We take it so seriously that we not only teach and train our team, but we also like to train others. We can train your team in new skills and on the product so it's rock solid and user-friendly.
+    info2:
+        icon: cogs alternative icon
+        title: Devops and System adminstration
+        text: Deploying your docker cluster on top of AWS EC2 Container Service (ECS) or using Kubernetes we got you covered. We can help you with security, Monitoring and Continuous Delivery Setup.
+
+
+techstack:
+  -
+    stack1:
+        title: Elixir
+        text: Elixir is relatively new but stands on the shoulders of giants. Fuses the best of Erlang - the runtime, the concurrency model, fault-tolerance and performance predictability, with a powerful extension system, robust metaprogramming and beautiful syntax. Whether you need to start a new project or to integrate with existing infrastructure, Elixir is a proven technological choice to build a scalable system that is easy to maintain.
+    stack2:
+        title: ELM
+        text: Another functional programming language we use on new projects is ELM. The final code is reliable, due to its magnificent compiler. We've yet to see a JS exception in production! The compiler does an excellent job at identifying missed cases, saves you from those errors not usually covered with unit tests. The Codebase is more maintainable. Refactoring is such a pleasure, when big changes are made, the compiler immediately signals all the places where stuff is broken.
+    stack3:
+        title: Ruby and JavaScript
+        text: Our development team is highly experienced on Ruby, Ruby on Rails and Javascript. Most of our current projects are still written using these technologies but we're shifting towards functional programming languages and technologies.
+
+
+
+
