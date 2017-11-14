@@ -28,18 +28,30 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           opacity: 0;
           position: absolute;
           top: 70%;
-          left: 30%;
+          left: 42.5%;
           transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%)
         }
         .imgs_container:hover .img-responsive{opacity: 0.3;}
-        .imgs_container:hover .mid{opacity: 1;}
+        .imgs_container:hover .mid{
+          width: 80%;
+          opacity: 1;
+        }
         .text_img {
           background-color: #ffcc00;
+          font-weight: bold;
           color: #1b1c1d;
           font-size: 16px;
           padding: 16px 32px;
         }
+        .sub_header{
+          background-color: #ffcc00;
+          font-size: 80%!important;
+          padding-left: 70px!important;
+          margin-top: -24px;
+          padding-right: 32px;
+        }
+        .texto{margin-top: 15px!important; padding-right: 5px; font-size: 90%;}
       }
       @media only screen and (min-width:900px) and (max-width:1199px){
         .imgs_container{
@@ -54,19 +66,31 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           transition: .5s ease;
           opacity: 0;
           position: absolute;
-          top: 50%;
-          left: 40%;
+          top: 60%;
+          left: 43.5%;
           transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%)
         }
         .imgs_container:hover .img-responsive{opacity: 0.3;}
-        .imgs_container:hover .mid{opacity: 1;}
+        .imgs_container:hover .mid{
+          width: 80%;
+          opacity: 1;
+        }
         .text_img {
           background-color: #ffcc00;
+          font-weight: bold;
           color: #1b1c1d;
-          font-size: 16px;
+          font-size: 14px;
           padding: 16px 32px;
         }
+        .sub_header{
+          background-color: #ffcc00;
+          font-size: 80%!important;
+          padding-left: 70px!important;
+          margin-top: -24px;
+          padding-right: 32px;
+        }
+        .texto{margin-top: 15px!important; padding-right: 5px; font-size: 90%;}
       }
       @media only screen and (min-width:768px) and (max-width:899px){
         .imgs_container{
@@ -95,11 +119,16 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
         .imgs_container .text_img{font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
         .imgs_container .texto{ margin-left:15%;}
         .text_img {
-          
           color: #1b1c1d;
           font-size: 16px;
           padding: 16px 32px;
         }
+        .sub_header{
+          opacity: 0;
+          margin: 0;
+          margin-top: -50px;
+        }
+        .texto{padding-right: 5px; font-size: 90%;}
       }
       @media only screen and (max-width:767px){
         .imgs_container{
@@ -125,16 +154,21 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           width: 90%;
           opacity: 1;
         }
-        .imgs_container .text_img{ font-size: 150%; font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
-        .imgs_container .texto{ margin-top: -30px!important; opacity: 0; }
+        .imgs_container .text_img{ font-size: 250%; font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
+        .imgs_container .texto{ margin-top: -20px!important; padding-right: 5px;font-size: 150%; margin-bottom: 5px; }
         .text_img {
           
           color: #1b1c1d;
           font-size: 16px;
           padding: 16px 32px;
         }
+        .sub_header{
+          opacity: 0;
+          margin: 0;
+          margin-top: -20px;
+        }
       }
-      </style>
+    </style>
       <!--<hr align="left" width="80%">
       <h2 class="ui header large">
         <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
@@ -147,8 +181,8 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           <img class="img-responsive" src="../../assets/img/yari-team.jpg" width="100%">      
           <div class="mid">
             <p class="text_img">{{page.title}}</p>
-            <h5 style="margin-top: -7px;" class="texto"><i class="user icon"></i>Author: {{page.author}}</h5>
-            
+            <div class="sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>            
+            <h5 style="margin-top: -7px;" class="texto"><i class="user icon"></i>by {{page.author}} | <i class="clock icon"></i>on {{page.date |  date_to_long_string  }}</h5>
           </div>
       </a>
   </div>
