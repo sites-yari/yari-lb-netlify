@@ -150,4 +150,179 @@ collections:
             - { label: "Github", name: "github", widget: "string" }
             - { label: "Web", name: "web", widget: "string" }
             - { label: "Twitter", name: "twitter", widget: "string" }
+      - name: social #|------------ Social
+        label: Paginas sociais
+        file: "_data/social.yml"
+        description: Links e icon das paginas sociais
+        fields:
+          - label: Home Social
+            name: homesocial
+            widget: object
+            fields:
+              - label: Gitlab
+                name: gitlab
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Twitter
+                name: twitter
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Google
+                name: google
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Linked In
+                name: linkedin
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Feed xml
+                name: feed_xml
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+          - label: Social
+            name: social
+            widget: object
+            fields:
+              - label: Gitlab
+                name: gitlab
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Twitter
+                name: twitter
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Google
+                name: google
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Linked In
+                name: linkedin
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Marker
+                name: marker
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+              - label: Feed xml
+                name: feed_xml
+                widget: object
+                fields:
+                  - { label: "Endereço / Link", mame: "link", widget: "string" }
+                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+      - name: technology #|------------ Technologies
+        label: Technologias
+        file: "_data/technology.yml"
+        description: Info das technologies
+        fields:
+          - label: Linguagens de Programação
+            name: programming
+            widget: list
+            fields:
+              - label: Stack1
+                name: stack1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+              - label: Stack2
+                name: stack2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+              - label: Stack3
+                name: stack3
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+          - label: Web development e mobile frameworks
+            name: web
+            widget: list
+            fields:
+              - label: Stack1
+                name: stack1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+              - label: Stack2
+                name: stack2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+              - label: Stack3
+                name: stack3
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Imagem / logo", name: "img", widget: "image" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+          - label: Index Info
+            name: index
+            widget: list
+            fields:
+              - label: info1
+                name: info1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+              - label: info2
+                name: info2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Icon", name: "icon", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+          - label: Technology stack index
+            name: techstack
+            widget: list
+            fields:
+              - label: Stack1
+                name: stack1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+              - label: Stack2
+                name: stack2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+              - label: Stack3
+                name: stack3
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+      
 
