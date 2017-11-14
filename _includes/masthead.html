@@ -1,11 +1,42 @@
-<div class="masthead">
-  <h1>{{site.masthead}}</h1> <!-- | Vai buscar no _config.yml o masthead apontado | -->
+<div class="masthead" style="background-color:#fafafa!important;">
 
-  <h2> Professional Consulting and Product Development within your budget and on time, powered by modern technologies. Our team is fluent in Ruby, Elixir, Elm, Angular, React and Mobile Development. We can design and build your product from scratch or integrate your existing team.
-  </h2>
+          <div class="ui equal width relaxed stackable grid" style="background-color:#fafafa;">
+      
+            <div class="equal width row">
+              <div class="column">
+                <div class="ui header inverted">
+                  <div class="content">
+                    <div class="ui hidden divider"></div>
+                    <div class="ui hidden divider"></div>
+                    <div class="sub header inverted">
+                        <img src="../../assets/uploads/nopic_yari.jpg" alt="for mascot" width="100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="column" style="margin-left: -50px;">
+                <div class="ui header inverted">
+                  <div class="content">
+                    <h1 style="color:#1b1c1d;">{{site.masthead}}</h1>
+                    <h2 style="color:#1b1c1d!important;"> Professional Consulting and Product Development within your budget and on time, 
+                        powered by modern technologies. Our team is fluent in Ruby, Elixir, Elm, Angular, React and Mobile Development. 
+                        We can design and build your product from scratch or integrate your existing team.
+                    </h2>
+                    <div class="ui hidden divider"></div>
+                    {% include email.html param="button" variable-param=page.variable %}
+                  </div>
+                </div>
+              </div>
+            </div>      
+          </div>
 
-  <div class="ui hidden divider"></div>
-  {% include email.html param="button" variable-param=page.variable %}
+  
+   <!-- | Vai buscar no _config.yml o masthead apontado | -->
+
+  
+
+  
 </div>
 <div class="ui center aligned grid">
   <i class="caret down huge cuticon icon"></i>
