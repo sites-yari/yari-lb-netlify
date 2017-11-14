@@ -45,7 +45,8 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           padding: 16px 32px;
         }
         .sub_header{
-          background-color: #ffcc00;
+          background-color:#1b1c1d; 
+          color:beige  ;       
           font-size: 80%!important;
           padding-left: 70px!important;
           margin-top: -24px;
@@ -84,7 +85,8 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           padding: 16px 32px;
         }
         .sub_header{
-          background-color: #ffcc00;
+          background-color:#1b1c1d; 
+          color:beige  ;    
           font-size: 80%!important;
           padding-left: 70px!important;
           margin-top: -24px;
@@ -154,6 +156,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
           width: 90%;
           opacity: 1;
         }
+
         .imgs_container .text_img{ font-size: 250%; font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
         .imgs_container .texto{ margin-top: -20px!important; padding-right: 5px;font-size: 150%; margin-bottom: 5px; }
         .text_img {
@@ -178,7 +181,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 
       <a href="{{page.url}}" title="{{page.title}}" class="ui black button" style="background-color: #444!important;">Read More...</a>-->
       <a href="{{page.url}}" title="{{page.title}}" class="imgs_container">
-          <img class="img-responsive" src="../../assets/img/yari-team.jpg" width="100%">      
+          <img class="img-responsive" src="../../{{page.image_path}}" width="100%" >      
           <div class="mid">
             <p class="text_img">{{page.title}}</p>
             <div class="sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>            

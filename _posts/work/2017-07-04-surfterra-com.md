@@ -6,6 +6,8 @@ date:   2016-06-13 11:19:48 +0530
 categories: ["Open Source"]
 images: ["canned-emails.png", "canned-email-screen.png"]
 permalink: /work/canned-emails
+image_path: assets/uploads/surfterra-logo2.png
+
 work:
   url: http://canned-emails.lightrains.com
   github: niksmac/Canned-Emails
