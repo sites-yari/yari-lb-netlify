@@ -12,7 +12,129 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
   {% assign blog = paginator.posts | where: "class", "blog" %}
 
   {% for page in blog %}
-  <div class="column eight wide" >
+  <div class="column eight wide" align="left" >
+    <style>
+      @media only screen and (min-width:1200px) and (max-width:1919px){
+        .imgs_container{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        }
+        .mid{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 70%;
+          left: 30%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+        .imgs_container:hover .img-responsive{opacity: 0.3;}
+        .imgs_container:hover .mid{opacity: 1;}
+        .text_img {
+          background-color: #ffcc00;
+          color: #1b1c1d;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+      }
+      @media only screen and (min-width:900px) and (max-width:1199px){
+        .imgs_container{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        }
+        .mid{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+        .imgs_container:hover .img-responsive{opacity: 0.3;}
+        .imgs_container:hover .mid{opacity: 1;}
+        .text_img {
+          background-color: #ffcc00;
+          color: #1b1c1d;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+      }
+      @media only screen and (min-width:768px) and (max-width:899px){
+        .imgs_container{
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+        .mid{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 85.3%;
+          left:45.4%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+        .imgs_container .mid{
+          background-color: #ffcc00;
+          position: absolute;
+          width: 83%;
+          opacity: 1;
+        }
+        .imgs_container .text_img{font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
+        .imgs_container .texto{ margin-left:15%;}
+        .text_img {
+          
+          color: #1b1c1d;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+      }
+      @media only screen and (max-width:767px){
+        .imgs_container{
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        }
+        .mid{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 80%;
+          left:45%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+        .imgs_container .mid{
+          background-color: #ffcc00;
+          position: absolute;
+          width: 90%;
+          opacity: 1;
+        }
+        .imgs_container .text_img{ font-size: 150%; font-weight: bold;margin-top: -10px; margin-bottom: -10px;}
+        .imgs_container .texto{ margin-top: -30px!important; opacity: 0; }
+        .text_img {
+          
+          color: #1b1c1d;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+      }
+      </style>
       <!--<hr align="left" width="80%">
       <h2 class="ui header large">
         <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
@@ -21,11 +143,12 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
       </h2>
 
       <a href="{{page.url}}" title="{{page.title}}" class="ui black button" style="background-color: #444!important;">Read More...</a>-->
-      <a href="{{page.url}}" title="{{page.title}}" class="imgs container">
-          <img class="img-responsive" src="../../assets/img/yari-team.jpg" width="70%">      
-          <div>
-            {{page.title}}
-            <h5 style="margin-top: -7px;">Author: {{page.author}}</h5>
+      <a href="{{page.url}}" title="{{page.title}}" class="imgs_container">
+          <img class="img-responsive" src="../../assets/img/yari-team.jpg" width="100%">      
+          <div class="mid">
+            <p class="text_img">{{page.title}}</p>
+            <h5 style="margin-top: -7px;" class="texto"><i class="user icon"></i>Author: {{page.author}}</h5>
+            
           </div>
       </a>
   </div>
