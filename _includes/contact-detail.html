@@ -9,6 +9,8 @@
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">+{{ site.phone }}</a><br>
   </div>
   <br>
+  <hr style="border-color: #ffcc00;" width="50%" align="left">
+  <br>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
     <span itemprop="streetAddress">86-90 Paul Street, 3rd Floor</span><br>
     <span itemprop="postalCode">EC2A 4NE</span> - <span itemprop="addressLocality">London</span><br>
@@ -16,5 +18,5 @@
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">+{{ site.ukphone }}</a>
   </div>
   <br><br>
-  <i class="send outline icon"></i><span itemprop="email">{% include email.html param="link" variable-param=page.variable %}</span><br>
+  <i class="send outline icon" style="color: #ffcc00!important;" ></i><span itemprop="email">{% include email.html param="link" variable-param=page.variable %}</span><br>
 </div>

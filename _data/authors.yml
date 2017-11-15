@@ -2,6 +2,8 @@
 emanuel:
     name:  Emanuel Mota 
     desig: Founder & Developer 
+    email:  emanuel@yarilabs.com
+    bio:    "Experienced Fullstack engineer ..."
     linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
     github:  http://github.com/emanuel
     web:    http://www.yarilabs.com
@@ -26,10 +28,28 @@ helder:
     twitter: https://twitter.com/yarilabs
 ricardo:
     name:   Ricardo Justo 
-    desig:  Ruby on Rails engineer 
+    desig:  Ruby on Rails Developer 
     email:  ricardo@yarilabs.com
     bio:    "Ruby on Rails Developer"
     linkedin: https://www.linkedin.com/in/ricardojusto
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
+victor:
+    name:   Victor 
+    desig:  Jekyll Web Developer
+    email:  victor@yarilabs.com
+    bio: "Jekyll Web Developer"   
+    linkedin: #
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
+xavier:
+    name:   Xavier
+    desig:  Python and elm engineer
+    email:  xavier@yarilabs.com
+    bio: "Python and elm engineer"   
+    linkedin: #
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs

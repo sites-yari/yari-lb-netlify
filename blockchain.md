@@ -5,7 +5,6 @@ permalink: /consulting/company-consulting
 date:   2016-06-13 11:19:48 +0530
 excerpt: "Consulting and development services for companies."
 ---
-
 Sometimes you already have an existing product and an established team but you need to increase your capacity or you need support in one of the areas we specialize.
 
 Some of the consulting projects we're currently working on are long term
@@ -24,13 +23,3 @@ Our core development skills are:
 
 Of the above we can provide you with Full-stack development or integrate just a
 single part of your development process:
-
-{% include company_services.html %}
-
-<br>
-
-
-Give us a call and we will help you with one of the consulting solutions that best fit your needs.
-{% include cta.html %}
-
-

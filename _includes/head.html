@@ -77,7 +77,7 @@
     s.parentNode.insertBefore(wf, s);
   })(); </script>
 
-  {% if page.url == "/about/portfolio" %}
+  {% if page.url == "" %}
   <link href="{{ "/assets/css/bundle-work.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   {% elsif page.layout == "work" %}
   <link href="{{ "/assets/css/bundle-work-lightbox.min.css" | prepend: site.baseurl }}" rel="stylesheet">
@@ -91,6 +91,9 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="amphtml" href="{{ page.permalink | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- netlify -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   {% include service_worker.html %}
   {% include favicons.html %}

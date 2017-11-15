@@ -1,0 +1,37 @@
+homesocial:
+  gitlab: 
+      link: https://gitlab.com/yarilabs
+      icon: github outline icon large inverted bordered
+  twitter:
+      link: https://twitter.com/yarilabs
+      icon: twitter outline icon large inverted bordered
+  google: 
+      link: https://plus.google.com/111792819110493287001/about
+      icon: google plus outline icon large inverted bordered
+  linkedin:
+      link: https://www.linkedin.com/company/11137193
+      icon: linkedin outline icon large inverted bordered
+  feed_xml:
+      link: no link allowed
+      icon: rss outline icon large inverted bordered
+
+social:
+  gitlab: 
+      link: https://gitlab.com/yarilabs
+      icon: github outline icon large bordered
+  twitter:
+      link: https://twitter.com/yarilabs
+      icon: twitter outline icon large bordered
+  google: 
+      link: https://plus.google.com/111792819110493287001/about
+      icon: google plus outline icon large bordered
+  linkedin:
+      link: https://www.linkedin.com/company/11137193
+      icon: linkedin outline icon large bordered
+  marker:
+      link: no link allowed
+      icon: marker outline icon large bordered
+  feed_xml:
+      link: no link allowed
+      icon: rss outline icon large bordered
+

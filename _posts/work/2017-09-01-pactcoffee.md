@@ -6,6 +6,8 @@ date:   2016-06-13 11:19:48 +0530
 categories: ["Consulting"]
 images: ["metromatinee_logo.png", "metromatinee_home.jpg"]
 permalink: /work/metromatinee
+image_path: assets/uploads/nopic_yari.jpg
+
 work:
   url: http://metromatinee.com
   client: http://www.tbfgolive.com
