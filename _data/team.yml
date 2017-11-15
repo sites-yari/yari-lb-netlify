@@ -1,56 +1,63 @@
 # Author details.
-- name:  Emanuel Mota
-  desig: Founder & Developer
-  email:  emanuel@yarilabs.com
-  bio:    "Experienced Fullstack engineer ..."
-  linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
-  github:  http://github.com/emanuel
-  web:    http://www.yarilabs.com
-  twitter: http://twitter.com/emota7
+team:
+  - 
+    name:  Emanuel Mota
+    desig: Founder & Developer
+    email:  emanuel@yarilabs.com
+    bio:    "Experienced Fullstack engineer ..."
+    linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
+    github:  http://github.com/emanuel
+    web:    http://www.yarilabs.com
+    twitter: http://twitter.com/emota7
 
-- name:   Filipe Rocha
-  desig:  Senior Fullstack Engineer
-  email:  filipe@yarilabs.com
-  bio:    "Experienced Fullstack engineer with very deep understanding of..."
-  linkedin: https://www.linkedin.com/in/filiperocha
-  github:  http://github.com/realyarilabs
-  web:    http://github.com/realyarilabs
-  twitter: https://twitter.com/yarilabs
+  - 
+    name:   Filipe Rocha
+    desig:  Senior Fullstack Engineer
+    email:  filipe@yarilabs.com
+    bio:    "Experienced Fullstack engineer with very deep understanding of..."
+    linkedin: https://www.linkedin.com/in/filiperocha
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
 
-- name:   Helder Pinto
-  desig:  Frontend and Mobile Developer
-  email:  helder@yarilabs.com
-  bio:    "Elm and Javascript Developer"
-  linkedin: https://www.linkedin.com/in/helderjnpinto/
-  github:  http://github.com/realyarilabs
-  web:    http://github.com/realyarilabs
-  twitter: https://twitter.com/yarilabs
+  - 
+    name:   Helder Pinto
+    desig:  Frontend and Mobile Developer
+    email:  helder@yarilabs.com
+    bio:    "Elm and Javascript Developer"
+    linkedin: https://www.linkedin.com/in/helderjnpinto/
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
 
-- name:   Ricardo Justo
-  desig:  Ruby on Rails engineer
-  email:  ricardo@yarilabs.com
-  bio:    "Ruby on Rails Developer"
-  linkedin: https://www.linkedin.com/in/ricardojusto
-  github:  http://github.com/realyarilabs
-  web:    http://github.com/realyarilabs
-  twitter: https://twitter.com/yarilabs
+  - 
+    name:   Ricardo Justo
+    desig:  Ruby on Rails engineer
+    email:  ricardo@yarilabs.com
+    bio:    "Ruby on Rails Developer"
+    linkedin: https://www.linkedin.com/in/ricardojusto
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
 
-- name:   Victor 
-  desig:  Jekyll Web Developer
-  email:  victor@yarilabs.com
-  bio: "Jekyll Web Developer"   
-  linkedin: #
-  github:  http://github.com/realyarilabs
-  web:    http://github.com/realyarilabs
-  twitter: https://twitter.com/yarilabs
+  - 
+    name:   Victor 
+    desig:  Jekyll Web Developer
+    email:  victor@yarilabs.com
+    bio: "Jekyll Web Developer"   
+    linkedin: #
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
 
-- name:   Xavier
-  desig:  Python and elm engineer
-  email:  xavier@yarilabs.com
-  bio: "Python and elm engineer"   
-  linkedin: #
-  github:  http://github.com/realyarilabs
-  web:    http://github.com/realyarilabs
-  twitter: https://twitter.com/yarilabs
+  - 
+    name:   Xavier
+    desig:  Python and elm engineer
+    email:  xavier@yarilabs.com
+    bio: "Python and elm engineer"   
+    linkedin: #
+    github:  http://github.com/realyarilabs
+    web:    http://github.com/realyarilabs
+    twitter: https://twitter.com/yarilabs
 
 
