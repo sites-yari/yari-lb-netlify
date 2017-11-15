@@ -54,7 +54,6 @@ collections:
           - { label: "Cliente", name: "client" , widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
-
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
     editor:
@@ -137,6 +136,20 @@ collections:
               - { label: "Github", name: "github", widget: "string" }
               - { label: "Web", name: "web", widget: "string" }
               - { label: "Twitter", name: "twitter", widget: "string" }
+      - name: "team" #|------------- Equipa
+        label: "Team"
+        file: "_data/team.yml"
+        description: Membros da Yarilabs
+        fields:
+          - 
+            - { label: "Nome", name: "name", widget: "string" }
+            - { label: "Desig", name: "desig", widget: "string" }
+            - { label: "Email", name: "email", widget: "string" }
+            - { label: "Bio", name: "bio", widget: "string" }
+            - { label: "Linked In", name: "linkedin", widget: "string" }
+            - { label: "Github", name: "github", widget: "string" }
+            - { label: "Web", name: "web", widget: "string" }
+            - { label: "Twitter", name: "twitter", widget: "string" }
       - name: social #|------------ Social
         label: Paginas sociais
         file: "_data/social.yml"
@@ -150,32 +163,32 @@ collections:
                 name: gitlab
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Twitter
                 name: twitter
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Google
                 name: google
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Linked In
                 name: linkedin
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Feed xml
                 name: feed_xml
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
           - label: Social
             name: social
             widget: object
@@ -184,26 +197,26 @@ collections:
                 name: gitlab
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Twitter
                 name: twitter
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Google
                 name: google
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Linked In
                 name: linkedin
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
               - label: Marker
                 name: marker
                 widget: object
@@ -214,8 +227,8 @@ collections:
                 name: feed_xml
                 widget: object
                 fields:
-                  - { label: "Endereço / Link", mame: "link", widget: "string" }
-                  - { label: "Icon / logo", mame: "icon", widget: "string" }
+                  - { label: "Endereço / Link", name: "link", widget: "string" }
+                  - { label: "Icon / logo", name: "icon", widget: "string" }
       - name: technology #|------------ Technologies
         label: Technologias
         file: "_data/technology.yml"
