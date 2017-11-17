@@ -10,7 +10,6 @@ meta:
 subtitle: Testing all new functionalities
 image_path: assets/uploads/nopic_yari.jpg
 --- 
-##Random Text
 
 *Liquid Voting* is a blockchain based voting/decision making platform made at [hack4people Hackathon](http://hack4people.com) by team  [lightrains](https://lightrains.com). ([niksmac](https://github.com/niksmac), [kp666](https://github.com/kp666) & [sibizulu](https://github.com/sibizulu))
 

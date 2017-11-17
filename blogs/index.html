@@ -19,7 +19,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
         <p class="main_text_img">{{page.title}}</p>
         <div class="main_sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>     
 
-        <img src="../../assets/img/logo.png" alt="" class="avatar">
+        {% include blog-avatar.html %}       
         <h5 style="margin-top: -7px;" class="main_texto">
           <span class="main_author"><span class="remove_icon"><i class="user icon"></i></span>by {{page.author}}</span> 
         </h5>

@@ -8,6 +8,7 @@ emanuel:
     github:  http://github.com/emanuel
     web:    http://www.yarilabs.com
     twitter: http://twitter.com/emota7
+    avatar: assets/uploads/emanuel_avatar.jpg
 filipe:
     name:   Filipe Rocha 
     desig:  Senior Fullstack Engineer 
@@ -17,6 +18,7 @@ filipe:
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
+    avatar: assets/uploads/filipe_avatar.jpeg
 helder:
     name:   Helder Pinto 
     desig:  Frontend and Mobile Developer 
@@ -26,6 +28,7 @@ helder:
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
+    avatar: assets/uploads/helder_avatar.jpg
 ricardo:
     name:   Ricardo Justo 
     desig:  Ruby on Rails Developer 
@@ -35,6 +38,7 @@ ricardo:
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
+    avatar: assets/uploads/ricardo_avatar.png
 victor:
     name:   Victor 
     desig:  Jekyll Web Developer
@@ -44,6 +48,7 @@ victor:
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
+    avatar: assets/uploads/victor_avatar.png
 xavier:
     name:   Xavier
     desig:  Python and elm engineer
@@ -53,3 +58,4 @@ xavier:
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
     twitter: https://twitter.com/yarilabs
+    avatar: assets/uploads/xavier_avatar.png
