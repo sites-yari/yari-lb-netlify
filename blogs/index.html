@@ -13,14 +13,20 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 
   {% for page in blog limit:1 %}
   <div class="column eight wide" align="left" >
-      <a href="{{page.url}}" title="{{page.title}}" class="main_imgs_container">
-          <img src="../../{{page.image_path}}" alt="" class="main_cropped_img" >      
-          <div class="main_mid">
-            <p class="main_text_img">{{page.title}}</p>
-            <div class="main_sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>            
-            <h5 style="margin-top: -7px;" class="main_texto"><i class="user icon"></i>by {{page.author}} | <i class="clock icon"></i>on {{page.date |  date_to_long_string  }}</h5>
-          </div>
-      </a>
+    <a href="{{page.url}}" title="{{page.title}}" class="main_imgs_container">
+      <img src="../../{{page.image_path}}" alt="" class="main_cropped_img" >      
+      <div class="main_mi">
+        <p class="main_text_img">{{page.title}}</p>
+        <div class="main_sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>     
+
+        <img src="../../assets/img/logo.png" alt="" class="avatar">
+        <h5 style="margin-top: -7px;" class="main_texto">
+          <span class="main_author"><span class="remove_icon"><i class="user icon"></i></span>by {{page.author}}</span> 
+          <span class="main_line">|</span> 
+          <span class="main_hour"><span class="remove_icon"><i class="clock icon"></i></span>on {{page.date |  date_to_long_string  }}</span>
+        </h5>
+      </div>
+    </a>
   </div>
   {% endfor %}
   
@@ -101,22 +107,35 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     /*------------| Main Post |-------------------*/
     .main_imgs_container{ width: 100%; }
     .main_cropped_img{
-      width: 200px;
-      height: 200px;
+      width: 400px;
+      height: 400px;
+      margin-left: 50px;
     }
-    .main_mid{ margin-top: -194px; margin-left: 200px; background-color: #ffcc00; padding-left: 10px; width: 350px; height: 185px;}
-    .main_text_img{ font-size: 150%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
+    .main_mi{ margin-top: -394px; margin-left: 450px; padding-left: 10px; width: 100%; height: 385px;}
+    .main_text_img{ font-size: 250%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
     .main_sub_header{ 
-      margin-bottom: 20px;
-      background-color: #1b1c1d;
-      width: 95%; 
-      height: 55%; 
-      padding-left: 20px; 
-      padding-right: 5px;
+      margin-bottom: 5px;
       margin-left: -10px; 
-      color:aliceblue;
+      background-color: #1b1c1d;
+      width: 110%; 
+      height: 65%; 
+      padding-left: 20px; 
+      padding-right: 10px;
+      padding-top:5px;
+      font-size: 150%;
+      color:#ffcc00;
     }
-    .main_texto{margin-left: 50px;}
+    .avatar{
+      border-radius: 100%;
+      width: 50px;
+      height:50px;
+      margin-bottom: -45px;
+    }
+    .main_texto{margin-left: 60px;font-size: 130%;}
+    .remove_icon{visibility: hidden;}
+    .main_author{margin-left: -25px;}
+    .main_line{visibility: hidden;}
+    .main_hour{margin-left: 350px;}
 
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
@@ -124,7 +143,12 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
       width: 200px;
       height: 200px;
     }
-    .mid{ margin-top: -194px; margin-left: 200px; background-color: #ffcc00; padding-left: 10px; width: 350px; height: 185px;}
+    .mid{ margin-top: -194px;
+     margin-left: 200px;
+     background-color: #ffcc00;
+     padding-left: 10px;
+      width: 350px;
+      height: 185px;}
     .text_img{ font-size: 150%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
     .sub_header{ 
       margin-bottom: 20px;
@@ -139,6 +163,40 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .texto{margin-left: 50px;}
   }
   @media only screen and (min-width:992px) and (max-width:1199px){
+    /*------------| Main Post |-------------------*/
+    .main_imgs_container{ width: 100%; }
+    .main_cropped_img{
+      width: 400px;
+      height: 400px;
+      margin-left: 50px;
+    }
+    .main_mi{ margin-top: -394px; margin-left: 450px; padding-left: 10px; width: 100%; height: 385px;}
+    .main_text_img{ font-size: 180%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
+    .main_sub_header{ 
+      margin-bottom: 5px;
+      margin-left: -10px; 
+      background-color: #1b1c1d;
+      width: 110%; 
+      height: 60%; 
+      padding-left: 20px; 
+      padding-right: 10px;
+      padding-top:5px;
+      font-size: 130%;
+      color:#ffcc00;
+    }
+    .avatar{
+      border-radius: 100%;
+      width: 50px;
+      height:50px;
+      margin-bottom: -45px;
+    }
+    .main_texto{margin-left: 60px;font-size: 120%;}
+    .remove_icon{visibility: hidden;}
+    .main_author{margin-left: -25px;}
+    .main_line{visibility: hidden;}
+    .main_hour{margin-left: 270px;}
+
+    /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
       width: 180px;
@@ -161,6 +219,40 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .texto{margin-left: 20px;font-size: 85%;}
   }
   @media only screen and (min-width:900px) and (max-width:991px){
+    /*------------| Main Post |-------------------*/
+    .main_imgs_container{ width: 100%; }
+    .main_cropped_img{
+      width: 300px;
+      height: 300px;
+      margin-left: 50px;
+    }
+    .main_mi{ margin-top: -294px; margin-left: 350px; padding-left: 10px; width: 100%; height: 285px;}
+    .main_text_img{ font-size: 140%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
+    .main_sub_header{ 
+      margin-bottom: 5px;
+      margin-left: -10px; 
+      background-color: #1b1c1d;
+      width: 100%; 
+      height: 60%; 
+      padding-left: 20px; 
+      padding-right: 10px;
+      padding-top:5px;
+      font-size: 110%;
+      color:#ffcc00;
+    }
+    .avatar{
+      border-radius: 100%;
+      width: 50px;
+      height:50px;
+      margin-bottom: -45px;
+    }
+    .main_texto{margin-left: 60px;font-size: 90%;}
+    .remove_icon{visibility: hidden;}
+    .main_author{margin-left: -19px;}
+    .main_line{visibility: hidden;}
+    .main_hour{margin-left: 190px;}
+
+    /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
       background: url(../../{{page.image_path}});
@@ -182,6 +274,40 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .texto{font-size: 75%;}
   }
   @media only screen and (min-width:768px) and (max-width:899px){
+    /*------------| Main Post |-------------------*/
+    .main_imgs_container{ width: 100%; }
+    .main_cropped_img{
+      width: 300px;
+      height: 300px;
+      margin-left: 50px;
+    }
+    .main_mi{ margin-top: -294px; margin-left: 350px; padding-left: 10px; width: 100%; height: 285px;}
+    .main_text_img{ font-size: 140%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
+    .main_sub_header{ 
+      margin-bottom: 5px;
+      margin-left: -10px; 
+      background-color: #1b1c1d;
+      width: 100%; 
+      height: 60%; 
+      padding-left: 20px; 
+      padding-right: 10px;
+      padding-top:5px;
+      font-size: 110%;
+      color:#ffcc00;
+    }
+    .avatar{
+      border-radius: 100%;
+      width: 50px;
+      height:50px;
+      margin-bottom: -45px;
+    }
+    .main_texto{margin-left: 60px;font-size: 90%;}
+    .remove_icon{visibility: hidden;}
+    .main_author{margin-left: -19px;}
+    .main_line{visibility: hidden;}
+    .main_hour{margin-left: 190px;}
+
+    /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
       background: url(../../{{page.image_path}});
@@ -204,6 +330,31 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .texto{font-size: 75%;}
   }
   @media only screen and (max-width:767px){
+    /*------------| Main Post |-------------------*/
+    .main_imgs_container{ width: 100%; }
+    .main_cropped_img{
+      width: 100%;
+      height: 220px;
+      margin-top: -20px;
+    }
+    .main_mi{ padding-left: 10px; width: 100%; height: 160px;}
+    .main_text_img{ font-size: 150%; font-weight: bold; margin-bottom: 5px; color: #1b1c1d; }
+    .main_sub_header{ 
+      margin-bottom: 10px;
+      font-size: 100%;
+      width: 97%; 
+      padding-left: 15px; 
+      padding-right: 5px;
+      margin-bottom: 15px;
+      color:#4c4c4c;
+    }
+    .avatar{
+      visibility:hidden;
+      margin-bottom: -600px;
+    }
+    .main_texto{font-size: 85%; border-top: 1px solid; border-color: #ffcc00;}
+
+    /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
       background: url(../../{{page.image_path}});
