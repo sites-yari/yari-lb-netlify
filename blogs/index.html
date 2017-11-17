@@ -8,54 +8,60 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 {% include bloghead.html %}
 
 <div class="ui equal width stackable two column grid">
-
   {% assign blog = paginator.posts | where: "class", "blog" %}
 
+  <!--|====================| MAIN BLOG POST |================================|-->
   {% for page in blog limit:1 %}
-  <div class="column eight wide" align="left" >
-    <a href="{{page.url}}" title="{{page.title}}" class="main_imgs_container">
-      <img src="../../{{page.image_path}}" alt="" class="main_cropped_img" >      
-      <div class="main_mi">
-        <p class="main_text_img">{{page.title}}</p>
-        <div class="main_sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>     
+    <div class="column eight wide" align="left" >
+      <a href="{{page.url}}" title="{{page.title}}" class="main_imgs_container">
+        <img src="../../{{page.image_path}}" alt="" class="main_cropped_img" >      
+        <div class="main_mi">
+          <p class="main_text_img">{{page.title}}</p>
+          <div class="main_sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>     
 
-        {% include blog-avatar.html %}       
-        <h5 style="margin-top: -7px;" class="main_texto">
-          <span class="main_author"><span class="remove_icon"><i class="user icon"></i></span>by {{page.author}}</span> 
-        </h5>
-        <h5 style="margin-top: -7px;" class="main_texto2" >
-          <span class="main_line">|</span> 
-          <span class="main_hour"><span class="remove_icon"><i class="clock icon"></i></span>on {{page.date |  date_to_long_string  }}</span>
-        </h5>
-      </div>
-    </a>
-  </div>
-  {% endfor %}
-  
-  <div class="ui hidden divider"></div>  
-
-  {% for page in blog offset:1 %}
-  <div class="column eight wide" align="left" >
-
-      <!--<hr align="left" width="80%">
-      <h2 class="ui header large">
-        <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
-        <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
-        <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
-      </h2>
-
-      <a href="{{page.url}}" title="{{page.title}}" class="ui black button" style="background-color: #444!important;">Read More...</a>-->
-      <a href="{{page.url}}" title="{{page.title}}" class="imgs_container">
-          <img src="../../{{page.image_path}}" alt="" class="cropped_img" >      
-          <div class="mid">
-            <p class="text_img">{{page.title}}</p>
-            <div class="sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>            
-            <h5 style="margin-top: -7px;" class="texto"><i class="user icon"></i>by {{page.author}} | <i class="clock icon"></i>on {{page.date |  date_to_long_string  }}</h5>
-          </div>
+          {% include blog-avatar.html %}       
+          <h5 style="margin-top: -7px;" class="main_texto">
+            <span class="main_author"><span class="remove_icon"><i class="user icon"></i></span>by {{page.author}}</span> 
+          </h5>
+          <h5 style="margin-top: -7px;" class="main_texto2" >
+            <span class="main_line">|</span> 
+            <span class="main_hour"><span class="remove_icon"><i class="clock icon"></i></span>on {{page.date |  date_to_long_string  }}</span>
+          </h5>
+        </div>
       </a>
-  </div>
+      <hr class="main_hr">
+      <span class="main_pre_posts">Previous Posts <i class="chat icon"></i></span>
+    </div>
+  {% endfor %}
+  <!--|==================| end MAIN BLOG POST |==============================|-->
+
+
+  <div class="ui hidden divider"></div>  <!-- Espaço em branco -->  
+
+  <!--|====================| older BLOG POST |================================|-->
+  {% for page in blog offset:1 %}
+    <div class="column eight wide" align="left" >
+        <!--<hr align="left" width="80%">
+        <h2 class="ui header large">
+          <a href="{{page.url}}" title="{{page.title}}" style="color: #1b1c1d!important;"></a>{{page.title}}</a>
+          <h5 style="color: #ffcc00!important;margin-top: -10px;">{{page.date |  date_to_long_string  }}</h5>
+          <div class="sub header">{{page.excerpt | strip_html |  truncatewords: 40}}</div>
+        </h2>
+        <a href="{{page.url}}" title="{{page.title}}" class="ui black button" style="background-color: #444!important;">Read More...</a>-->
+
+        <a href="{{page.url}}" title="{{page.title}}" class="imgs_container">
+            <img src="../../{{page.image_path}}" alt="" class="cropped_img" >      
+            <div class="mid">
+              <p class="text_img">{{page.title}}</p>
+              <div class="sub_header">{{page.excerpt | strip_html |  truncatewords: 30}}</div>            
+              <h5 style="margin-top: -7px;" class="texto"><i class="user icon"></i>by {{page.author}} | <i class="clock icon"></i>on {{page.date |  date_to_long_string  }}</h5>
+            </div>
+        </a>
+    </div>
   {% endfor %}
 </div>
+  <!--|==================| end older BLOG POST |==============================|-->
+
 
 <!-- Espaços em branco -->
 <div class="ui divider hidden big"></div>
@@ -102,7 +108,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
         }
       });
     }
-  </script>
+</script>
 
 <style>
   @media only screen and (min-width:1200px) and (max-width:1919px){
@@ -138,6 +144,9 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .remove_icon{visibility: hidden;}
     .main_author{margin-left: -25px;}
     .main_line{visibility: hidden;margin-right: -35px;}
+
+    .main_hr{width: 205%; margin-top: 70px;margin-bottom: -15px; border-color:#1b1c1d;}
+    .main_pre_posts{font-size: 120%; margin-left: 10px;background-color:#1b1c1d; padding: 8px; border-radius:20px; color:#ffcc00;}
 
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
@@ -198,6 +207,9 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .main_author{margin-left: -25px;}
     .main_line{visibility: hidden;margin-right: -35px;}
 
+    .main_hr{width: 205%; margin-top: 70px;margin-bottom: -15px; border-color:#1b1c1d;}
+    .main_pre_posts{font-size: 120%; margin-left: 10px;background-color:#1b1c1d; padding: 8px; border-radius:20px; color:#ffcc00;}
+
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
@@ -254,6 +266,9 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .main_author{margin-left: -19px;}
     .main_line{visibility: hidden;margin-right: -27px;}
 
+    .main_hr{width: 205%; margin-top: 70px;margin-bottom: -15px; border-color:#1b1c1d;}
+    .main_pre_posts{font-size: 120%; margin-left: 10px;background-color:#1b1c1d; padding: 8px; border-radius:20px; color:#ffcc00;}
+
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
     .cropped_img{
@@ -308,6 +323,9 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     .remove_icon{visibility: hidden;}
     .main_author{margin-left: -19px;}
     .main_line{visibility: hidden;margin-right: -24px;}
+
+    .main_hr{width: 205%; margin-top: 70px;margin-bottom: -15px; border-color:#1b1c1d;}
+    .main_pre_posts{font-size: 120%; margin-left: 10px;background-color:#1b1c1d; padding: 8px; border-radius:20px; color:#ffcc00;}
     
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
@@ -356,6 +374,8 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
     }
     .main_texto{font-size: 85%; border-top: 1px solid; border-color: #ffcc00;margin-bottom: -15px;}
     .main_texto2{font-size: 85%; margin-left:95px;}
+    .main_hr{visibility: hidden;}
+    .main_pre_posts{visibility: hidden;}
 
     /*-----------| Older Posts |------------------*/
     .imgs_container{ width: 100%; }
