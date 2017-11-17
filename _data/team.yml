@@ -42,9 +42,9 @@ team:
 
   - 
     name:   Victor 
-    desig:  Jekyll Web Developer
+    desig:  trainee
     email:  victor@yarilabs.com
-    bio: "Jekyll Web Developer"   
+    bio: "trainee"   
     linkedin: #
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
@@ -52,9 +52,9 @@ team:
 
   - 
     name:   Xavier
-    desig:  Python and elm engineer
+    desig:  trainee
     email:  xavier@yarilabs.com
-    bio: "Python and elm engineer"   
+    bio: "trainee"   
     linkedin: #
     github:  http://github.com/realyarilabs
     web:    http://github.com/realyarilabs
