@@ -2,9 +2,9 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html>
+<html style="">
 {% include head.html %}
-<body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}">
+<body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}" style="">
   <div class="pusher">
     <div class="ui container" style=" background-color: #1b1c1d; width: 100%!important; margin-top: -20px; margin-left: 0!important;">
       {% include header.html %}
@@ -41,7 +41,7 @@ layout: compress
 
 </div>
 <div class="fullw">
-  <div class="ui container footer" style="width: 100%!important; margin-top: -20px; margin-left: 0!important;">
+  <div class="ui container footer" style="width: 100%!important; ">
     {% include footer.html %}
   </div>
   {% include analytics.html %}
