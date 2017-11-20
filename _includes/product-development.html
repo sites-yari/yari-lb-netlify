@@ -4,50 +4,31 @@
 
 <div class="ui fluid container techs" style="width: 100%!important;">
     <div class="ui container">
-    <div class="ui equal width relaxed stackable grid">
-        <div class="equal width row">
-        <div class="column">
-            <div class="ui header inverted">
-            <div class="content">
-                <h2 style="color: #ffcc00!important;">Product Design Session</h2>
-                <div class="sub header inverted">
-                    We will collect your initial specs and the user stories that define actions your users will do with your Product.
-                    This is where we explore the concept and make sure we are completly in sync whith what is desired. 
+        <div class="ui equal width relaxed stackable grid">
+            {% for product-development in site.data.consulting.product_development %}
+            <div class="equal width row">
+                <div class="column">
+                    <div class="ui header inverted">
+                        <div class="content">
+                            <h2 style="color: #ffcc00!important;">{{product-development.info1.title}}</h2>
+                            <div class="sub header inverted">
+                                {{product-development.info1.text}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui header inverted">
+                        <div class="content">
+                            <h2 style="color: #ffcc00!important;">{{product-development.info2.title}}</h2>
+                            <div class="sub header inverted">
+                                {{product-development.info2.text}}
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+            {% endfor %}
         </div>
-        <div class="column">
-            <div class="ui header inverted">
-            <div class="content">
-                <h2 style="color: #ffcc00!important;">Detailed Wireframing &amp; Visual Prototype</h2>
-                <div class="sub header inverted">
-                    We use prototyping tools to quickly animate the wireframes into a functional prototype. You can then iterate with comments, testing the ideas, approve or request changes. When we reach the final prototype our designers team will work on the final look and feel and deliver the mockups, where you'll be able to iterate again untill this step is closed.
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="equal width row">
-        <div class="column"><div class="ui header inverted">
-            <div class="content">
-            <h2 style="color: #ffcc00!important;">Development Process</h2>
-            <div class="sub header inverted">
-                With a very good idea of what your MVP will look and work like, our developers will start developing.
-            </div>
-            </div>
-        </div>
-        </div>
-        <div class="column"><div class="ui header inverted">
-            <div class="content">
-            <h2 style="color: #ffcc00!important;">User Testing</h2>
-            <div class="sub header inverted">
-                If you want or need to see the your product working with real users before going live, we can also do user experience and usability testing.
-            </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </div>
     </div>
 </div>

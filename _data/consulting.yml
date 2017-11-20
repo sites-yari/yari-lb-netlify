@@ -1,0 +1,35 @@
+consulting_development:
+  -
+    info1:
+        title: Just Design and UX
+        text: You have developers, but you need a design team with experience in UX/UI to help design your product. In this case we will be your design and UX team.
+    info2:
+        title: Just Development
+        text: You have the designs for your product, and you just need a team to implement it. In this case we are your development team
+  -
+    info1:
+        title: Integration
+        text: Sometimes your development team just needs an extra pair of hands. We have fullstack developers ready help or integrate your team.
+    info2:
+        title: Integration of Designers and Developers
+        text: We can help you with a team of designers and developers joining your team.
+
+product_development:
+  -
+    info1:
+        title: Product Design Session
+        text: We will collect your initial specs and the user stories that define actions your users will do with your Product. This is where we explore the concept and make sure we are completly in sync whith what is desired.
+    info2:
+        title: Detailed Wireframing & Visual Prototype
+        text: We use prototyping tools to quickly animate the wireframes into a functional prototype. You can then iterate with comments, testing the ideas, approve or request changes. When we reach the final prototype our designers team will work on the final look and feel and deliver the mockups, where you'll be able to iterate again untill this step is closed.
+
+  -
+    info1:
+        title: Development Process
+        text: With a very good idea of what your MVP will look and work like, our developers will start developing.
+    info2:
+        title: User Testing
+        text: If you want or need to see the your product working with real users before going live, we can also do user experience and usability testing.
+
+
+
