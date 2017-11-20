@@ -42,7 +42,7 @@ date:   2017-08-01 11:19:48 +0530
     }
 </style>
 
-<div class="ui equal width relaxed stackable grid" style="background-color:#ffffff;">
+<div class="ui equal width relaxed stackable grid" style="background-color:#fafafa;">
     <div class="equal width row">
         <!--<div class="column">
             <div class="ui header inverted">
