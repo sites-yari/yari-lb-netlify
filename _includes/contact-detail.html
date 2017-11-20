@@ -3,18 +3,18 @@
   </a>
   <img src="{{ site.url | append: '/' | append: site.logo}}" itemprop="image" class="ohidden" alt="{{ site.title }}"/>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="streetAddress">Rua dos Capelistas, 30 - 3rd Floor</span><br>
-    <span itemprop="postalCode">4700-307</span> - <span itemprop="addressLocality">Braga</span><br>
-    <span itemprop="addressCountry">Portugal</span><br>
+    <span itemprop="streetAddress">{{site.data.contact.detail.pt.street}}</span><br>
+    <span itemprop="postalCode">{{site.data.contact.detail.pt.postal}}</span> - <span itemprop="addressLocality">{{site.data.contact.detail.pt.cidade}}</span><br>
+    <span itemprop="addressCountry">{{site.data.contact.detail.pt.pais}}</span><br>
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">+{{ site.phone }}</a><br>
   </div>
   <br>
   <hr style="border-color: #ffcc00;" width="50%" align="left">
   <br>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-    <span itemprop="streetAddress">86-90 Paul Street, 3rd Floor</span><br>
-    <span itemprop="postalCode">EC2A 4NE</span> - <span itemprop="addressLocality">London</span><br>
-    <span itemprop="addressCountry">United Kingdom</span><br>
+    <span itemprop="streetAddress">{{site.data.contact.detail.en.street}}</span><br>
+    <span itemprop="postalCode">{{site.data.contact.detail.en.postal}}</span> - <span itemprop="addressLocality">{{site.data.contact.detail.en.cidade}}</span><br>
+    <span itemprop="addressCountry">{{site.data.contact.detail.en.pais}}</span><br>
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">+{{ site.ukphone }}</a>
   </div>
   <br><br>
