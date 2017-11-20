@@ -15,10 +15,6 @@ layout: compress
     <div class="ui container">
       {{ content }}
     </div>
-    {% elsif page.url == "/consulting/company-consulting" %} <!-- Se for a pagina consulting + includes -->
-    <div class="ui container" style="margin-top: 30px;">
-      {{ content }}
-    </div>
     {% else %}
     <div class="ui container" style="margin-top: 30px;">
       {{ content }}
@@ -33,12 +29,21 @@ layout: compress
     {% elsif page.url == "/consulting/company-consulting" %} <!-- Se for a pagina consulting + includes -->
       {% include company_services.html %} 
       {% include consult-dev-contact.html %}   
-    {% endif %}
-    <div class="fullw">
-      <div class="ui container footer" style="width: 100%!important; margin-top: -20px; margin-left: 0!important;">
-        {% include footer.html %}
+
+    {% elsif page.url == "/consulting/product-development" %}
+      {% include product-development.html %}
+      <div class="ui container" style="margin-top: 30px;">
+        <p style="font-size:120%; margin-bottom: -15px;" >Give us a call and we will help you develop your MVP!</p>
+        {% include cta.html %}
       </div>
-    </div>
+    {% endif %}
+    
+
+</div>
+<div class="fullw">
+  <div class="ui container footer" style="width: 100%!important; margin-top: -20px; margin-left: 0!important;">
+    {% include footer.html %}
+  </div>
   {% include analytics.html %}
   {% include scripts.html %}
 </div>

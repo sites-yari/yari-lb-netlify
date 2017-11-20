@@ -2,6 +2,7 @@
 title: Categories and Tags
 layout: post
 permalink: /blogs/categories
+published: false
 ---
 <div class="ui hidden divider big"></div>
 <div class="ui stackable two column grid catsntags">
