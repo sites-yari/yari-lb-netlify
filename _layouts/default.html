@@ -2,10 +2,10 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html style="">
+<html>
 {% include head.html %}
-<body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}" style="">
-  <div class="pusher">
+<body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}" style="display: flex;min-height: 100vh;flex-direction: column; padding: 0;">
+  <div class="pusher" style="flex: 1;">
     <div class="ui container" style=" background-color: #1b1c1d; width: 100%!important; margin-top: -20px; margin-left: 0!important;">
       {% include header.html %}
     </div>
