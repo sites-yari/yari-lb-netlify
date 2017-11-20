@@ -328,5 +328,40 @@ collections:
                 fields: 
                   - { label: "Titulo", name: "title", widget: "string" }
                   - { label: "Texto", name: "text", widget: "string" }
-      
-
+      - name: consulting #|------------ Consulting
+        label: Páginas Consulting
+        file: "_data/consulting.yml"
+        description: Textos das areas pretas 
+        fields:
+          - label: Consulting & Development
+            name: consulting_development
+            widget: list
+            fields:
+              - label: info1
+                name: info1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+              - label: info2
+                name: info2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+          - label: Product Development
+            name: product_development
+            widget: list
+            fields:
+              - label: info1
+                name: info1
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }
+              - label: info2
+                name: info2
+                widget: object
+                fields: 
+                  - { label: "Titulo", name: "title", widget: "string" }
+                  - { label: "Texto", name: "text", widget: "string" }

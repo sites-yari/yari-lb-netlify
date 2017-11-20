@@ -7,13 +7,14 @@
 <div class="ui fluid container techs" style="width: 100%!important;">
     <div class="ui container">
       <div class="ui equal width relaxed stackable grid">
+        {% for company_services in site.data.consulting.consulting_development %}
         <div class="equal width row">
           <div class="column">
             <div class="ui header inverted">
               <div class="content">
-                <h2 style="color: #ffcc00!important;">Just Design and UX</h2>
+                <h2 style="color: #ffcc00!important;">{{company_services.info1.title}}</h2>
                 <div class="sub header inverted">
-                    You have developers, but you need a design team with experience in UX/UI to help design your product. In this case we will be your design and UX team.
+                    {{company_services.info1.text}}
                 </div>
               </div>
             </div>
@@ -21,34 +22,16 @@
           <div class="column">
             <div class="ui header inverted">
               <div class="content">
-                <h2 style="color: #ffcc00!important;">Just Development</h2>
+                <h2 style="color: #ffcc00!important;">{{company_services.info2.title}}</h2>
                 <div class="sub header inverted">
-                    You have the designs for your product, and you just need a team to implement it. In this case we are your development team
+                    {{company_services.info2.text}}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="equal width row">
-          <div class="column"><div class="ui header inverted">
-            <div class="content">
-              <h2 style="color: #ffcc00!important;">Integration</h2>
-              <div class="sub header inverted">
-                  Sometimes your development team just needs an extra pair of hands. We have fullstack developers ready help or integrate your team.
-              </div>
-            </div>
-          </div>
-        </div>
-          <div class="column"><div class="ui header inverted">
-            <div class="content">
-              <h2 style="color: #ffcc00!important;">Integration of Designers and Developers</h2>
-              <div class="sub header inverted">
-                  We can help you with a team of designers and developers joining your team.
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
+        {% endfor %}
+        
       </div>
     </div>
   </div>
