@@ -58,12 +58,21 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 plugins:
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   # - jekyll-admin
 
-paginate: 8
-paginate_path: "/blogs/page:num/"
+gems:
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 7
+  permalink: "page:num/"
+  limit: 1
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'posts'
+
 tag_page_dir: tag
 
 tag_feed_dir: tag
@@ -83,3 +92,34 @@ compress_html:
   startings: []
 
 ampdir: amp
+
+
+autopages:
+
+  # Site-wide kill switch, disable here and it doesn't run at all 
+  enabled: true
+
+  # Category pages, omit entire config element to disable
+  categories: 
+    # Optional, the list of layouts that should be processed for every category found in the site
+    layouts: 
+      - 'default.html'
+    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+    title: 'Posts in category :cat'
+    # Optional, the permalink for the  pagination page (:cat is replaced), 
+    # the pagination permalink path is then appended to this permalink structure
+    permalink: '/category/:cat'
+
+  # Collection pages, omit to disable
+  collections:
+    layouts: 
+      - 'default.html'
+    title: 'Posts in collection :coll' # :coll is replaced by the collection name
+    permalink: '/collection/:coll'
+  
+  # Tag pages, omit to disable
+  tags:
+    layouts: 
+      - 'default.html'
+    title: 'Posts tagged with :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'
