@@ -54,6 +54,18 @@ collections:
           - { label: "Cliente", name: "client" , widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 
+  - name: "mdfiles"
+    label: "MD Files"
+    editor:
+      preview: true
+    files:
+      - name: "about"
+        label: "About Us"
+        file: "/about.md"
+        description: Página sobre a empresa
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
     editor:
