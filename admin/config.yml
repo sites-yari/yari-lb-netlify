@@ -75,6 +75,13 @@ collections:
         description: Página sobre Elixir Developer
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
+      - name: "intern" #-----| Internship |------------------------------|
+        label: "Internship"
+        file: "/intership.md"
+        description: Página sobre o estágio
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
