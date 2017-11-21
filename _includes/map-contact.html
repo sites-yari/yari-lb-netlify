@@ -1,0 +1,78 @@
+<div class="ui container">
+    <h1>Contact Us</h1>
+    
+    <h2>Do you have a product you'd like to launch or need an extra pair of hands? Get in touch! </h2>
+    <div class="ui divider big hidden"></div></div>
+
+<div class="ui fluid container techs">
+    <div class="ui container">
+      <div class="ui equal width relaxed stackable grid">
+  
+        <div class="equal width row">
+          <div class="column">
+            <div class="ui header inverted">
+              <div class="content">
+                <div class="sub header inverted" style="font-size: 100%!important;">
+                  <a href="{{site.googlemap}}" target="_blank">
+                    <img src="/assets/img/yarilabs-contact-us.png" alt="{{ page.title}} Braga" class="ui image fluid rgb" style="max-width:100%"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="column">
+            <div class="ui header inverted">
+              <div class="content">
+                <h2 style="color: #ffcc00!important;">Portugal</h2>
+                <div class="sub header inverted" style="font-size: 100%!important;">
+                  <a itemprop="url" href="https://yarilabs.com" style="color: #ffcc00!important;"><div itemprop="name"><strong>{{ site.title }}</strong></div>
+                  </a>
+                  <img src="{{ site.url | append: '/' | append: site.logo}}" itemprop="image" class="ohidden" alt="{{ site.title }}"/>
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">{{site.data.contact.detail.pt.street}}</span><br>
+                    <span itemprop="postalCode">{{site.data.contact.detail.pt.postal}}</span> - <span itemprop="addressLocality">{{site.data.contact.detail.pt.cidade}}</span><br>
+                    <span itemprop="addressCountry">{{site.data.contact.detail.pt.pais}}</span><br>
+                    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}" style="color: #ffcc00!important;">+{{ site.phone }}</a><br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="equal width row">
+          <div class="column">
+            <div class="ui header inverted">
+              <div class="content"style="margin-top: 30px;">
+                <h2 style="color: #ffcc00!important;">England</h2>
+                <div class="sub header inverted" style="font-size: 100%!important;">
+                  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">{{site.data.contact.detail.en.street}}</span><br>
+                    <span itemprop="postalCode">{{site.data.contact.detail.en.postal}}</span> - <span itemprop="addressLocality">{{site.data.contact.detail.en.cidade}}</span><br>
+                    <span itemprop="addressCountry">{{site.data.contact.detail.en.pais}}</span><br>
+                    <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}" style="color: #ffcc00!important;">+{{ site.ukphone }}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="column">
+            <div class="ui header inverted">
+              <div class="content">
+                <h2 style="color: #ffcc00!important;">{{technologies.info2.title}}</h2>
+                <div class="sub header inverted" style="font-size: 100%!important;">
+                  <a href="{{site.googlemap_uk}}" target="_blank"><br>
+                    <img src="/assets/img/yarilabs-contact-us-uk.jpg" alt="{{ page.title}} London" class="ui image fluid rgb" style="max-width:100%"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <div class="ui divider big hidden"></div>
+  
+  <div class="ui container">{% include social.html %}</div>
