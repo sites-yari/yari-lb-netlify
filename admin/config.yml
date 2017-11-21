@@ -10,52 +10,57 @@ backend:
 collections:
 #====================| POSTS |===================================================|  
   #-----| Blogs |------------------------------|
-  - name: "blogs"
-    label: "Blogs"
-    folder: "_posts/blogs"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
-      - { label: "TAG", name: "tag", widget: "hidden", default: "[blog]" }
-      - { label: "Autor", name: "author", widget: "string" }
-      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
-      - { label: "Class", name: "class", widget: "hidden", default: "blog" }
-      - { label: "Meta", name: "meta", widget: "hidden", default: "" }
-      - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
-      - { label: "Cover", name: "image_path", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
-  #-----| Artigos |-------------------------------|
-  - name: "work"
-    label: "Portfolio / work"
-    folder: "_posts/work"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Subtitulo", name: "subtitle", widget: "string" }
-      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
-      - { label: "Categorias", name: "categories", widget: "select", options: [ "Blockchain", "Ethereum" ,
-           "Open Source" , "Consulting", "Android", "Smart Contract", "Rails", "Ruby", "Products", "Web App"]  }
-      - { label: "Imagems", name: "images", widget: "image" }
-      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
-      - { label: "Excerpt", name: "excerpt", widget: "string" }
-      - { label: "Cover", name: "image_path", widget: "image" }
-      - label: "Work"
-        name: "work" 
-        widget: "object"
+  - name: "posts" #|=====================| DATA |====================================================|
+    label: "Posts"
+    editor:
+      preview: true
+    files:
+      - name: "blogs"
+        label: "Blogs"
+        folder: "_posts/blogs"
+        create: true
+        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
         fields:
-          - { label: "Nome", name: "name" , widget: "string" }
-          - { label: "URL", name: "url" , widget: "string" }
-          - { label: "Cliente", name: "client" , widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+          - { label: "TAG", name: "tag", widget: "hidden", default: "[blog]" }
+          - { label: "Autor", name: "author", widget: "string" }
+          - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
+          - { label: "Class", name: "class", widget: "hidden", default: "blog" }
+          - { label: "Meta", name: "meta", widget: "hidden", default: "" }
+          - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
+          - { label: "Cover", name: "image_path", widget: "image" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "mdfiles"
-    label: "MD Files"
+      #-----| Artigos |-------------------------------|
+      - name: "work"
+        label: "Portfolio / work"
+        folder: "_posts/work"
+        create: true
+        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
+          - { label: "Titulo", name: "title", widget: "string" }
+          - { label: "Subtitulo", name: "subtitle", widget: "string" }
+          - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+          - { label: "Categorias", name: "categories", widget: "select", options: [ "Blockchain", "Ethereum" ,
+              "Open Source" , "Consulting", "Android", "Smart Contract", "Rails", "Ruby", "Products", "Web App"]  }
+          - { label: "Imagems", name: "images", widget: "image" }
+          - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
+          - { label: "Excerpt", name: "excerpt", widget: "string" }
+          - { label: "Cover", name: "image_path", widget: "image" }
+          - label: "Work"
+            name: "work" 
+            widget: "object"
+            fields:
+              - { label: "Nome", name: "name" , widget: "string" }
+              - { label: "URL", name: "url" , widget: "string" }
+              - { label: "Cliente", name: "client" , widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "paginas" #|=====================| PÁGINAS MD / HTML |====================================================|
+    label: "Páginas Web"
     editor:
       preview: true
     files:
@@ -65,6 +70,41 @@ collections:
         description: Página sobre a empresa
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
+      - name: "careers"
+        label: "Careers"
+        file: "/careers.md"
+        description: Página sobre a carreira
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "elixirdev"
+        label: "Elixir Developer Consultant"
+        file: "/elixir-developer-consultant.md"
+        description: Página sobre Elixir Developer
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "intern"
+        label: "Internship"
+        file: "/intership.md"
+        description: Página sobre o estágio
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "consulting"
+        label: "Consulting & Development"
+        file: "/blockchain.md"
+        description: Página sobre consulting & development
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "productdev"
+        label: "Product Development"
+        file: "/smart-contract.md"
+        description: Página sobre Product Development
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      -
+      -
+      -
+      -
+
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
