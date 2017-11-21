@@ -9,52 +9,48 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
-  - name: "posts" #|=====================| DATA |====================================================|
-    label: "Posts"
-    editor:
-      preview: true
-    files:
-      - name: "blogs" #-----| Blogs |------------------------------|
-        label: "Blogs"
-        folder: "_posts/blogs"
-        create: true
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #|=====================| DATA |====================================================|
+  - name: "blogs" #-----| Blogs |------------------------------|
+    label: "Blogs"
+    folder: "_posts/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "TAG", name: "tag", widget: "hidden", default: "[blog]" }
+      - { label: "Autor", name: "author", widget: "string" }
+      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
+      - { label: "Class", name: "class", widget: "hidden", default: "blog" }
+      - { label: "Meta", name: "meta", widget: "hidden", default: "" }
+      - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
+      - { label: "Cover", name: "image_path", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "work" #-----| Artigos |-------------------------------|
+    label: "Portfolio / work"
+    folder: "_posts/work"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Subtitulo", name: "subtitle", widget: "string" }
+      - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
+      - { label: "Categorias", name: "categories", widget: "select", options: [ "Blockchain", "Ethereum" ,
+          "Open Source" , "Consulting", "Android", "Smart Contract", "Rails", "Ruby", "Products", "Web App"]  }
+      - { label: "Imagems", name: "images", widget: "image" }
+      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
+      - { label: "Excerpt", name: "excerpt", widget: "string" }
+      - { label: "Cover", name: "image_path", widget: "image" }
+      - label: "Work"
+        name: "work" 
+        widget: "object"
         fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-          - { label: "Titulo", name: "title", widget: "string" }
-          - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
-          - { label: "TAG", name: "tag", widget: "hidden", default: "[blog]" }
-          - { label: "Autor", name: "author", widget: "string" }
-          - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
-          - { label: "Class", name: "class", widget: "hidden", default: "blog" }
-          - { label: "Meta", name: "meta", widget: "hidden", default: "" }
-          - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
-          - { label: "Cover", name: "image_path", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "work" #-----| Artigos |-------------------------------|
-        label: "Portfolio / work"
-        folder: "_posts/work"
-        create: true
-        slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
-          - { label: "Titulo", name: "title", widget: "string" }
-          - { label: "Subtitulo", name: "subtitle", widget: "string" }
-          - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
-          - { label: "Categorias", name: "categories", widget: "select", options: [ "Blockchain", "Ethereum" ,
-              "Open Source" , "Consulting", "Android", "Smart Contract", "Rails", "Ruby", "Products", "Web App"]  }
-          - { label: "Imagems", name: "images", widget: "image" }
-          - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
-          - { label: "Excerpt", name: "excerpt", widget: "string" }
-          - { label: "Cover", name: "image_path", widget: "image" }
-          - label: "Work"
-            name: "work" 
-            widget: "object"
-            fields:
-              - { label: "Nome", name: "name" , widget: "string" }
-              - { label: "URL", name: "url" , widget: "string" }
-              - { label: "Cliente", name: "client" , widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Nome", name: "name" , widget: "string" }
+          - { label: "URL", name: "url" , widget: "string" }
+          - { label: "Cliente", name: "client" , widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "paginas" #|=====================| PÁGINAS MD / HTML |====================================================|
     label: "Páginas Web"
