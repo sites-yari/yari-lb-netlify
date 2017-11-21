@@ -9,13 +9,12 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
-  #-----| Blogs |------------------------------|
   - name: "posts" #|=====================| DATA |====================================================|
     label: "Posts"
     editor:
       preview: true
     files:
-      - name: "blogs"
+      - name: "blogs" #-----| Blogs |------------------------------|
         label: "Blogs"
         folder: "_posts/blogs"
         create: true
@@ -32,9 +31,7 @@ collections:
           - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
           - { label: "Cover", name: "image_path", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
-
-      #-----| Artigos |-------------------------------|
-      - name: "work"
+      - name: "work" #-----| Artigos |-------------------------------|
         label: "Portfolio / work"
         folder: "_posts/work"
         create: true
@@ -64,47 +61,42 @@ collections:
     editor:
       preview: true
     files:
-      - name: "about"
+      - name: "about" #-----| About Us |------------------------------|
         label: "About Us"
         file: "/about.md"
         description: Página sobre a empresa
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "careers"
+      - name: "careers" #-----| Careers |------------------------------|
         label: "Careers"
         file: "/careers.md"
         description: Página sobre a carreira
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "elixirdev"
+      - name: "elixirdev" #-----| Elixir developers |------------------------------|
         label: "Elixir Developer Consultant"
         file: "/elixir-developer-consultant.md"
         description: Página sobre Elixir Developer
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "intern"
+      - name: "intern" #-----| Internship |------------------------------|
         label: "Internship"
         file: "/intership.md"
         description: Página sobre o estágio
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "consulting"
+      - name: "consulting" #-----| Consulting & Development |------------------------------|
         label: "Consulting & Development"
         file: "/blockchain.md"
         description: Página sobre consulting & development
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "productdev"
+      - name: "productdev" #-----| Product Development |------------------------------|
         label: "Product Development"
         file: "/smart-contract.md"
         description: Página sobre Product Development
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      -
-      -
-      -
-      -
-
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
