@@ -69,6 +69,12 @@ collections:
         description: Página sobre a carreira
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
+      - name: "elixir-developer-consultant" #-----| Elixir developers |------------------------------|
+        label: "Elixir Developer Consultant"
+        file: "/elixir-developer-consultant.md"
+        description: Página sobre Elixir Developer
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
