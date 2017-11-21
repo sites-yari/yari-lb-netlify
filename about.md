@@ -6,6 +6,14 @@ date:   2017-08-01 11:19:48 +0530
 ---
 
 <style>
+    @media only screen and (min-width:2000px){
+        .under_content{
+        /*margin-left: -150px;*/
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: -50px;}
+        .content img{width: 50%!important;margin-top: -50px;margin-left: 50px; margin-bottom: -50px;}
+      }
     @media only screen and (min-width:1200px) and (max-width:1999px){
     .under_content{
         /*margin-left: -150px;*/
