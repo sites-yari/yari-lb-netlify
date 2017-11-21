@@ -2,7 +2,9 @@
 layout: default
 title: Blogs - Explaining Blockchain, Elm, ES6 and what not.
 excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and what not."
-
+pagination:
+  enabled: true
+  tag: blog
 ---
 
 {% include bloghead.html %}
@@ -69,8 +71,7 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
 
 <!-- Paginator -->
 <div class="ui grid">
-  <div class="eight wide column">
-    <div class="pagination">
+    <div class="pagination" style="float: none;">
       <!--{% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="ui left small labeled icon floated button"><i class="left arrow icon"></i>Previous</a>
       {% else %}
@@ -83,19 +84,18 @@ excerpt: "Blogs - Explaining Blockchain, Ethereum, React, Elm, Elixir, ES6 and w
       <span class="ui right floated right labeled icon small button">Next<i class="right arrow icon"></i></span>
       {% endif %}-->
       
-      <!--{% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">P&aacute;gina anterior</a>
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="ui left small labeled icon floated button" style="background: #ffcc00 none;"><i class="left arrow icon"></i>P&aacute;gina anterior</a>
       {% else %}
-        <span class="previous_page disabled">P&aacute;gina anterior</span>
+        <span class="ui left small labeled icon floated button" style="background: #ffcc00 none;"><i class="left arrow icon"></i>P&aacute;gina anterior</span>
       {% endif %}
       <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Pr&oacute;xima p&aacute;gina</a>
+        <a href="{{ paginator.next_page_path }}" class="ui right floated right labeled icon small button" style="background: #ffcc00 none;">Pr&oacute;xima p&aacute;gina<i class="right arrow icon"></i></a>
       {% else %}
-        <span class="next_page disabled">Pr&oacute;xima p&aacute;gina</span>
-      {% endif %}-->
+        <span class="ui right floated right labeled icon small button" style="background: #ffcc00 none;">Pr&oacute;xima p&aacute;gina<i class="right arrow icon"></i></span>
+      {% endif %}
     </div>
-  </div>
 </div>
 
 <script>

@@ -1,3 +1,4 @@
+=begin
 module Jekyll
 
   class CatsAndTags < Generator
@@ -73,4 +74,4 @@ module Jekyll
       self.data["posts"] = posts[0..9]
     end
   end
-end
+=end
