@@ -63,36 +63,7 @@ collections:
         description: Página sobre a empresa
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "careers" #-----| Careers |------------------------------|
-        label: "Careers"
-        file: "/careers.md"
-        description: Página sobre a carreira
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "elixir-developer-consultant" #-----| Elixir developers |------------------------------|
-        label: "Elixir Developer Consultant"
-        file: "/elixir-developer-consultant.md"
-        description: Página sobre Elixir Developer
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "intern" #-----| Internship |------------------------------|
-        label: "Internship"
-        file: "/intership.md"
-        description: Página sobre o estágio
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "blockchain" #-----| Consulting & Development |------------------------------|
-        label: "Consulting & Development"
-        file: "/blockchain.md"
-        description: Página sobre consulting & development
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-      - name: "smart-contract" #-----| Product Development |------------------------------|
-        label: "Product Development"
-        file: "/smart-contract.md"
-        description: Página sobre Product Development
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
+      
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
