@@ -1,4 +1,4 @@
-<div class="ui container">
+<div class="ui container" style="margin-top: 30px;">
     <h1>Contact Us</h1>
     
     <h2>Do you have a product you'd like to launch or need an extra pair of hands? Get in touch! </h2>
@@ -41,7 +41,7 @@
         </div>
   
         <div class="equal width row">
-          <div class="column">
+          <div class="column" align="right">
             <div class="ui header inverted">
               <div class="content"style="margin-top: 30px;">
                 <h2 style="color: #ffcc00!important;">England</h2>
@@ -74,5 +74,10 @@
     </div>
   </div>
   <div class="ui divider big hidden"></div>
-  
-  <div class="ui container">{% include social.html %}</div>
+
+  <div class="ui container">
+    <div itemscope itemtype="http://schema.org/Organization" style="font-size: 150%!important;">
+        <i class="send outline icon" style="color: #ffcc00!important;" ></i><span itemprop="email">{% include email.html param="link" variable-param=page.variable %}</span><br>  
+    </div>
+    {% include social.html %}
+  </div>
