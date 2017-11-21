@@ -75,13 +75,24 @@ collections:
         description: Página sobre Elixir Developer
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-      - name: "intern" #-----| Internship |------------------------------|
+      - name: "internship" #-----| Internship |------------------------------|
         label: "Internship"
-        file: "/intership.md"
+        file: "/internship.md"
         description: Página sobre o estágio
         fields:
           - { label: "Body", name: "body", widget: "markdown" }
-
+      - name: "blockchain" #-----| Consulting & Development |------------------------------|
+        label: "Consulting & Development"
+        file: "/blockchain.md"
+        description: Página sobre consulting & development
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "smart-contract" #-----| Product Development |------------------------------|
+        label: "Product Development"
+        file: "/smart-contract.md"
+        description: Página sobre Product Development
+        fields:
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
