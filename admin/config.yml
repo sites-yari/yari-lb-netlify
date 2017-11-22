@@ -36,8 +36,8 @@ collections:
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Subtitulo", name: "subtitle", widget: "string" }
       - { label: "Data de Publicação", name: "data", widget: "datetime", format: "DD-MM-YYYY" }
-      - { label: "Categorias", name: "categories", widget: "string"}
-      - { label: "Imagems", name: "images", widget: "image" }
+      - { label: "Categorias", name: "categories", widget: "hidden"}
+      - { label: "Imagems", name: "images", widget: "hidden" }
       - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/work/(nome)" }
       - { label: "Excerpt", name: "excerpt", widget: "string" }
       - { label: "Cover", name: "image_path", widget: "image" }
