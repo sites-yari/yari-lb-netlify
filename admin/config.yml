@@ -61,36 +61,64 @@ collections:
         file: "/about.md"
         description: Página sobre a empresa
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/yarilabs" }
+          - { label: "Title", name: "title", widget: "hidden", default: "About Us" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2017-08-01 11:19:48 +0530" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "careers" #-----| Careers |------------------------------|
         label: "Careers"
         file: "/careers.md"
         description: Página sobre a carreira
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/careers" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Careers" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2017-08-01 00:00:00 +0530" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "elixir-developer-consultant" #-----| Elixir developers |------------------------------|
         label: "Elixir Developer Consultant"
         file: "/elixir-developer-consultant.md"
         description: Página sobre Elixir Developer
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/careers/elixir-developer" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Software Engineer-Elixir" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2017-08-01 00:00:00 +0530" }
+          - { label: "ptype", name: "ptype", widget: "hidden", default: "career" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "internship" #-----| Internship |------------------------------|
         label: "Internship"
         file: "/internship.md"
         description: Página sobre o estágio
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/careers/internship" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Internship Program" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2016-06-29 11:19:48 +0530" }
+          - { label: "Excerpt", name: "excerpt", widget: "hidden", default: "career" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "blockchain" #-----| Consulting & Development |------------------------------|
         label: "Consulting & Development"
         file: "/blockchain.md"
         description: Página sobre consulting & development
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/consulting/company-consulting" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Consulting & Development" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2016-06-13 11:19:48 +0530" }
+          - { label: "Excerpt", name: "excerpt", widget: "hidden", default: "Consulting and development services for companies." }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "smart-contract" #-----| Product Development |------------------------------|
         label: "Product Development"
         file: "/smart-contract.md"
         description: Página sobre Product Development
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/consulting/product-development" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Product Development" }
+          - { label: "Date", name: "date", widget: "hidden", default: "2017-02-27 11:19:48 +0530" }
+          - { label: "Excerpt", name: "excerpt", widget: "hidden", default: "Product Development on Ethereum Blockchain using Solidity" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "open-source" #-----| Open Source |------------------------------|
         label: "Open Source"
