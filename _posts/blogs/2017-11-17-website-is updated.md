@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Website is now updated, still fixing some small issues in the website"
+title: Website is now updated, still fixing some small issues in the website
 date: 2017-11-17 12:33:28 +0100
 tag: ["blog"]
 permalink: /blogs/website-is-now-updated
