@@ -3,8 +3,13 @@ layout: work
 title:  "Surfterra - Connecting surfers and Photographers"
 subtitle: "Blockchain based decentralised, permissioned GIS and data management platform."
 date:   2017-01-21 01:01:01 +0530
-categories: ["Rails", "Ruby", "Products", "Consulting", "Web App"]
-images: ["atlaschain.png", "atlaschain-map.png", "atlaschain-register.png"]
+categories: 
+  - cat: "Rails" 
+  - cat: "Ruby"
+  - cat: "Products"
+  - cat: "Consulting"
+  - cat: "Web App"
+images: "atlaschain.png"
 permalink: /work/surfterra-web
 excerpt: "Surfterra is a web platform that connects surfers and photographers"
 image_path: assets/uploads/nopic_yari2.jpg
