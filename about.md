@@ -1,10 +1,9 @@
 ---
 layout: post
-title: About Us
 permalink: /about/yarilabs
-date:   2017-08-01 11:19:48 +0530
+title: About Us
+date: '2017-08-01 11:19:48 +0530'
 ---
-
 <style>
     @media only screen and (min-width:2000px){
         .under_content{
@@ -68,9 +67,7 @@ date:   2017-08-01 11:19:48 +0530
                 <div class="content">
                     <div class="under_content">
                         <h2 style="color:#1b1c1d;">Our Team and culture</h2> 
-                        <p style="color:#1b1c1d!important; font-size:80%!important; font-weight: normal!important;"> We are a technology start up with a fantastic and bright team of professionals with a culture of continuous learning. We love great challenges that push further our ability to innovate and create. </p>
-                        <p style="color:#1b1c1d!important; font-size:80%; font-weight: normal!important;"> We deliver projects all over the world from our Portuguese Office in Braga where our operational team is based. Braga is often called the Portuguese Silicon Valey :) with a top university that provides world-class IT engineering and computer science training. </p>
-                        <p style="color:#1b1c1d!important; font-size:80%; font-weight: normal!important;"> Our clients benefit from this high-quality technical ability, the very good level of English and cost effectiveness when compared with other developed countries. </p>
+                        
                     </div>
                 </div>
             </div>
@@ -79,6 +76,7 @@ date:   2017-08-01 11:19:48 +0530
 </div><br><br><br>
 
 ## Our Team and culture
+
 We are a technology start up with a fantastic and bright team of professionals with a culture of continuous learning. We love great challenges that push further our ability to innovate and create.
 
 We deliver projects all over the world from our Portuguese Office in Braga where our operational team is based. Braga is often called the Portuguese Silicon Valey :) with a top university that provides world-class IT engineering and computer science training.
@@ -86,7 +84,6 @@ We deliver projects all over the world from our Portuguese Office in Braga where
 Our clients benefit from this high-quality technical ability, the very good
 level of English and cost effectiveness when compared with other developed
 countries.
-
 
 ## What we do
 
@@ -100,6 +97,5 @@ We're specially focused on functional programming languages although we'll allwa
 * Web and Mobile development
 * Cloud deployments at scale / DevOps
 * Training
-
 
 Give us call or send us an email and we will help you build something brilliant !
