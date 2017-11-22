@@ -49,7 +49,6 @@ collections:
           - { label: "URL", name: "url" , widget: "string" }
           - { label: "Cliente", name: "client" , widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Categorias", name: "categories", widget: "string"}
 
   - name: "paginas" #|=====================| PÁGINAS MD / HTML |====================================================|
     label: "Páginas Web"
