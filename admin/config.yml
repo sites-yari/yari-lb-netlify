@@ -22,7 +22,7 @@ collections:
       - { label: "Autor", name: "author", widget: "string" }
       - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
       - { label: "Class", name: "class", widget: "hidden", default: "blog" }
-      - { label: "Meta", name: "meta", widget: "hidden", default: "" }
+      - { label: "Meta", name: "meta", widget: "hidden", default: "no info" }
       - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
       - { label: "Cover", name: "image_path", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
