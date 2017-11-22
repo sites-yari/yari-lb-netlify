@@ -97,12 +97,18 @@ collections:
         file: "/open-source.md"
         description: Página sobre o Open Source
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/community" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Community" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "comunidade" #-----| Comunity |------------------------------|
         label: "Community"
         file: "/comunidade.md"
         description: Página sobre a Comunidade
         fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/open-source" }
+          - { label: "Title", name: "title", widget: "hidden", default: "Open Source" }
           - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "data" #|=====================| DATA |====================================================|
