@@ -5,8 +5,8 @@ layout: compress
 <html>
 {% include head.html %}
 <body id="page-{{page.layout}}" class="page page-{{page.layout}} path-{{page.class | default: 'inner'}}" style="display: flex;min-height: 100vh;flex-direction: column; padding: 0;">
-  <div class="pusher" style="flex: 1;">
-    <div class="ui container" style=" background-color: #1b1c1d; width: 100%!important; margin-top: -20px; margin-left: 0!important;">
+  <div class="pusher">
+    <div class="header_style">
       {% include header.html %}
     </div>
 
@@ -18,8 +18,10 @@ layout: compress
     {% comment %}{% elsif page.url == "/about/contact" %}
       {{ content }}{% endcomment %}
     {% else %}
-    <div class="ui container" style="margin-top: 30px;">
-      {{ content }}
+    <div class="margin_container">        
+      <div class="ui container" style="margin-top: 30px;">
+        {{ content }}
+      </div>
     </div>
     {% endif %}
     <!-- |======================| end CONTENT |========================|  -->
@@ -34,16 +36,18 @@ layout: compress
 
     {% elsif page.url == "/consulting/product-development" %}
       {% include product-development.html %}
-      <div class="ui container" style="margin-top: 30px;">
-        <p style="font-size:120%; margin-bottom: -15px;" >Give us a call and we will help you develop your MVP!</p>
-        {% include cta.html %}
+      <div class="margin_container">
+        <div class="ui container">
+          <p class="prod_dev_p">Give us a call and we will help you develop your MVP!</p>
+          {% include cta.html %}
+        </div>
       </div>
     {% endif %}
     
 
 </div>
 <div class="fullw">
-  <div class="ui container footer" style="width: 100%!important; ">
+  <div class="ui container footer">
     {% include footer.html %}
   </div>
   {% include analytics.html %}
