@@ -242,6 +242,7 @@
   .tech_style i {color: #ffcc00!important;}
   .tech_style h2 {color: #ffcc00!important;}
   .tech_style .sub.header.inverted {font-size: 100%!important;}
+  .ui.fluid.container.techs .column .ui.header.inverted i{color: #ffcc00!important;}
 
   /*===================| Consult-dev-contact |===================*/
   .consult_dev_contact_p{font-size: 1.2rem; margin-bottom: -20px!important;}
