@@ -148,11 +148,11 @@ gulp.task('images', function () {
 // Create Favicons
 gulp.task('favicon', function () {
   gulp.src('./assets/img/logo.png').pipe(favicons({
-    appName: 'Lightrains Tech',
-    appDescription: 'Lightrains Tech',
+    appName: 'Yari Labs',
+    appDescription: 'Yari Labs',
     background: '#FFFFFF',
     path: '/assets/favicons/',
-    url: 'https://lightrains.com/',
+    url: 'http://yarilabs.com/',
     display: 'standalone',
     orientation: 'portrait',
     version: 1.0,
