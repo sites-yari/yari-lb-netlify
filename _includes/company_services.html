@@ -4,27 +4,31 @@
   <i class="caret down huge cuticon icon"></i>
 </div>
 
-<div class="ui fluid container techs" style="width: 100%!important;">
+<div class="ui fluid container techs">
     <div class="ui container">
       <div class="ui equal width relaxed stackable grid">
         {% for company_services in site.data.consulting.consulting_development %}
         <div class="equal width row">
           <div class="column">
             <div class="ui header inverted">
-              <div class="content">
-                <h2 style="color: #ffcc00!important;">{{company_services.info1.title}}</h2>
-                <div class="sub header inverted" style="font-size: 100%!important;">
-                    {{company_services.info1.text}}
+              <div class="tech_style">                    
+                <div class="content">
+                  <h2>{{company_services.info1.title}}</h2>
+                  <div class="sub header inverted">
+                      {{company_services.info1.text}}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="column">
             <div class="ui header inverted">
-              <div class="content">
-                <h2 style="color: #ffcc00!important;">{{company_services.info2.title}}</h2>
-                <div class="sub header inverted" style="font-size: 100%!important;">
-                    {{company_services.info2.text}}
+              <div class="tech_style">
+                <div class="content">
+                  <h2>{{company_services.info2.title}}</h2>
+                  <div class="sub header inverted">
+                      {{company_services.info2.text}}
+                  </div>
                 </div>
               </div>
             </div>

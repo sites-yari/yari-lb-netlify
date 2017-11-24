@@ -14,7 +14,7 @@ published: true
       <div class="image">
         <img src="{{ thisAuthor.email | to_gravatar }}" alt="Photo of {{ thisAuthor.name }}">
       </div>
-      <div class="content" style="background-color: #ffcc00;">
+      <div class="content">
         <div class="header">{{ thisAuthor.name }}</div>
         <div class="meta">
           <span class="date">{{ thisAuthor.desig}}</span>
@@ -37,7 +37,7 @@ published: true
       <div class="image">
         <img src="{{ thisAuthor.email | to_gravatar }}" alt="Photo of {{ thisAuthor.name }}">
       </div>
-      <div class="content" style="background-color: #ffcc00;">
+      <div class="content">
         <div class="header">{{ thisAuthor.name }}</div>
         <div class="meta">
           <span class="date">{{ thisAuthor.desig}}</span>

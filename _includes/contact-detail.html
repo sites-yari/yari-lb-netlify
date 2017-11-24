@@ -9,7 +9,7 @@
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.phone | escape | remove: " " }}">+{{ site.phone }}</a><br>
   </div>
   <br>
-  <hr style="border-color: #ffcc00;" width="50%" align="left">
+  <hr class="hr_color_width" align="left">
   <br>
   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
     <span itemprop="streetAddress">{{site.data.contact.detail.en.street}}</span><br>
@@ -18,5 +18,5 @@
     <i class="call icon"></i><a itemprop="telephone" href="tel:+{{ site.ukphone | escape | remove: " " }}">+{{ site.ukphone }}</a>
   </div>
   <br><br>
-  <i class="send outline icon" style="color: #ffcc00!important;" ></i><span itemprop="email">{% include email.html param="link" variable-param=page.variable %}</span><br>
+  <span itemprop="email" class="yari_yellow"><i class="send outline icon"></i>{% include email.html param="link" variable-param=page.variable %}</span><br>
 </div>

@@ -3,12 +3,12 @@
   <!-- |============| Categorias |============================================================================|  -->
   <!-- Categorias , Vai buscar todas as catergorias adicionadas nos posts -->
   {% assign portfolios = site.posts | where: "layout" , "work" %}
-  <div id="filters" style=" margin-bottom: 40px!important;" align="center">
-    <a class="ui label large black" data-filter="*" style="background-color: #ffcc00;">Show All</a>
+  <div id="filters" align="center" class="filters_ports">
+    <a class="ui label large black" data-filter="*">Show All</a>
 
     {% for category in site.categories %}
-    <a class="ui large label" data-filter=".{{ category | first | capitalize | replace: " ", "" }}"
-      style="background-color: #ffcc00; margin-top: 15px;">{{ category | first }}</a>
+    <a class="ui large label" 
+        data-filter=".{{ category | first | capitalize | replace: " ", "" }}">{{ category | first }}</a>
     {% endfor %}
 
     <hr width="95%">    
@@ -29,10 +29,10 @@
 
     <div class="work {{ allTags }}" style="margin: 0!important;" width="100%">
       <div class="overlay">
-        <a href="{{page.url}}" class="imgs_container" style=" margin-top: 20px;">
-          <img src="../../../{{page.image_path}}" alt="{{page.title}}" class="img_responsive">
-          <div class="mid" >
-              <div class="texto">{{page.title}}</div>
+        <a href="{{page.url}}" class="imgs_container_port" style=" margin-top: 20px;">
+          <img src="../../../{{page.image_path}}" alt="{{page.title}}" class="img_responsive_port">
+          <div class="mid_port" >
+              <div class="texto_port">{{page.title}}</div>
           </div>
         </a>
       </div>
@@ -43,62 +43,3 @@
   <div class="ui hidden divider"></div>
 </div>
 
-<style>
-  .imgs_container{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  }
-  .img_responsive{
-    width: 350px;
-    height: 250px;
-  }
-  .mid{
-    background-color:#1b1c1d;
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    text-align: center;
-  }
-  .texto{
-    margin-top: 5px;
-    margin-bottom: 5px; 
-    font-size: 110%;
-    font-weight: bold;
-    color:#ffcc00;
-  }
-  @media only screen and (min-width:992px) and (max-width:1199px){
-    .imgs_container{
-      margin-left: 100px;
-    }
-  }
-  @media only screen and (min-width:768px) and (max-width:991px){
-    .imgs_container{
-      margin-left: 135px;
-    }
-    .img_responsive{
-    width: 450px;
-    height: 250px;
-    }
-    .mid{
-    width: 128.5%;
-    }
-  }
-  @media only screen and (max-width:768px){
-    .imgs_container{
-      margin-left: 15%;
-    }
-    .img_responsive{
-    width: 450px;
-    height: 250px;
-    }
-    .mid{
-    width: 128.5%;
-    }
-  }
-</style>

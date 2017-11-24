@@ -196,6 +196,144 @@
     .margin_container {margin-top: 30px;}
     .ui.container .prod_dev_p{font-size:120%; margin-bottom: -15px;}
     .ui.container.footer{width: 100%!important;}
+    .yari_yellow{color: #ffcc00!important;}
+    .yari_yellow i{color: #ffcc00!important;}
+    .two.wide.column h4{
+      color: #ffcc00!important; 
+      font-weight: bold!important;
+    }
+    .four.wide.column h4{
+      color: #ffcc00!important; 
+      font-weight: bold!important;
+    }
+    .seven.wide.column h4{
+      color: #ffcc00!important; 
+      font-weight: bold!important;
+    }
+
+  /*====================| header |==============================|*/
+  .widescreen.computer.mobile.only{margin-left:20px; margin-top: 1.5em!important;}
+  .widescreen.computer.mobile.only img{width: 200px!important;}
+  .ui.inverted.top.sidebar.vertical.menu {margin-top: 1.5em!important;}
+  .ui.inverted.top.sidebar.vertical.menu .item{
+    color: #ffffff!important; 
+    font-weight: bold;
+  }
+  .ui.secondary.pointing.menu.large.screen.only .left.menu{
+    margin-left:60px;
+    padding-top: 1em;
+  }  
+  .ui.secondary.pointing.menu.large.screen.only .left.menu img{width: 250px!important;}
+  .ui.secondary.pointing.menu.large.screen.only .right.menu{
+    margin-right:60px; 
+    margin-top: 1.5em!important;
+  }
+  .ui.secondary.pointing.menu.large.screen.only .right.menu .ui.dropdown.pointing.item{
+    color: #ffffff!important;
+  }
+  .ui.secondary.pointing.menu.large.screen.only .right.menu .item{
+    color: #ffffff!important;
+  }
+  .ui.secondary.pointing.menu.large.screen.only .right.menu .menu .item{
+    color:#000!important;
+  }
+
+  /*========| Technologies / index, company and product development |===== */
+  .tech_style i {color: #ffcc00!important;}
+  .tech_style h2 {color: #ffcc00!important;}
+  .tech_style .sub.header.inverted {font-size: 100%!important;}
+
+  /*===================| Consult-dev-contact |===================*/
+  .consult_dev_contact_p{font-size: 1.2rem; margin-bottom: -20px!important;}
+  .ui.grid.stackable.text .eight.wide.column img{max-width:50%!important;}
+
+  /*=======================|footer all rights|==========================*/
+  .rights_reserved{color: #fc0!important;}
+
+  /*=======================| HR color |===========================*/
+  .hr_color{border-color: #ffcc00;}
+  .hr_color_width{border-color: #ffcc00; width: 50%;}
+  .hr_footer{
+    border-color: #ffcc00!important; 
+    margin-top: -50px!important;
+    margin-bottom: 50px!important;
+    width: 100%!important;
+  }
+  .hr_porfolio_head{
+    margin-top: 40px!important;
+    margin-bottom: -85px!important;
+    width: 95%!important;}
+
+  /*======================| Team |=========================*/
+  .ui.four.column.stackable.grid .ui.fluid.card .content{
+    background-color: #ffcc00!important;
+  }
+
+  /*=====================|Portfolio|=======================*/
+  .filters_ports{margin-bottom: 40px!important;}
+  .filters_ports .ui.label.large.black{background-color: #000!important;}
+  .filters_ports .ui.large.label{
+    background-color: #ffcc00!important; 
+    margin-top: 15px!important;
+  }
+  .imgs_container_port{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .img_responsive_port{
+    width: 350px;
+    height: 250px;
+  }
+  .mid_port{
+    background-color:#1b1c1d;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+  }
+  .texto_port{
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    font-size: 110%;
+    font-weight: bold;
+    color:#ffcc00;
+  }
+  @media only screen and (min-width:992px) and (max-width:1199px){
+    .imgs_container_port{
+      margin-left: 100px;
+    }
+  }
+  @media only screen and (min-width:768px) and (max-width:991px){
+    .imgs_container_port{
+      margin-left: 135px;
+    }
+    .img_responsive_port{
+    width: 450px;
+    height: 250px;
+    }
+    .mid_port{
+    width: 128.5%;
+    }
+  }
+  @media only screen and (max-width:768px){
+    .imgs_container_port{
+      margin-left: 15%;
+    }
+    .img_responsive_port{
+    width: 450px;
+    height: 250px;
+    }
+    .mid_port{
+    width: 128.5%;
+    }
+  }
+
    /*=====================| Blog |=========================*/
   @media only screen and (min-width:1920px){
     /*------------| Main Post |-------------------*/
