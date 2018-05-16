@@ -5,7 +5,6 @@ backend:
   name: git-gateway
   repo: https://github.com/sites-yari/yarilabs-netlify
   branch: master # Branch to update (optional; defaults to master)
-  site_domain: yarilabs.netlify.com
 
 collections:
 #====================| POSTS |===================================================|  
