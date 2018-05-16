@@ -1,9 +1,8 @@
 ---
-layout:     post
-title:      Internship Program
-permalink:  /careers/internship
-date:       2016-06-29 11:19:48 +0530
-ptype:      "career"
+layout: post
+permalink: /careers/internship
+title: Internship Program
+date: '2016-06-29 11:19:48 +0530'
 ---
 
 
@@ -12,9 +11,9 @@ Our internship program provides talented students with the opportunity to acquir
 We have deepened our core competency by organizing our Creative Department into cross-disciplinary teams.
 
 ### Possible Creative Internships Include
- * User Experience
- * Design
- * Technology
+ * User Experience;
+ * Design;
+ * Technology.
 
 ### Qualifications
  * Excellent verbal and writing skills
