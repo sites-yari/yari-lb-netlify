@@ -3,7 +3,7 @@ layout: blog
 title: Teste de upload 7
 date: '2018-05-21'
 tag: '["blog"]'
-author: Victor
+author: victor
 permalink: /blogs/teste-de-upload-7
 class: blog
 meta: no info
