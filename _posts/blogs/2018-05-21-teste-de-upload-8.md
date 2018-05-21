@@ -6,7 +6,7 @@ tag: '["blog"]'
 author: victor
 permalink: /blogs/tdu-8
 class: blog
-meta: ''
+meta: 
 subtitle: subtitulo aqui
 image_path: /assets/uploads/unit_yoshikage_kira_-kosaku_kawajiri-_-green-.png
 ---
