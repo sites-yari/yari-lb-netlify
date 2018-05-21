@@ -17,7 +17,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "date", format: "YYYY-MM-DD" }
-      - { label: "TAG", name: "tag", widget: "markdown", default: '["blog"]' }
+      - { label: "TAG", name: "tag", widget: "hidden", default: '["blog"]', required: false }
       - { label: "Autor", name: "author", widget: "string" }
       - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
       - { label: "Class", name: "class", widget: "hidden", default: "blog" }

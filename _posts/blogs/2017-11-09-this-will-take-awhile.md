@@ -2,7 +2,7 @@
 layout: blog
 title: "This will take awhile to Fix"
 date: "2017-11-09"
-tag: ["blog"]
+tag: 
 permalink: /blogs/this-will-take-awhile-to-fix
 author: victor
 class: blog
