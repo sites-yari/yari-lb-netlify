@@ -21,7 +21,7 @@ collections:
       - { label: "Autor", name: "author", widget: "string" }
       - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
       - { label: "Class", name: "class", widget: "hidden", default: "blog" }
-      - { label: "Meta", name: "meta", widget: "hidden", default: "no info", required: false }
+      - { label: "Meta", name: "meta", widget: "hidden", default: "", required: false }
       - { label: "SubTitulo", name: "subtitle", widget: "string", default: "", required: false }
       - { label: "Cover", name: "image_path", widget: "image", default: "../../assets/uploads/nopic_yari.jpg" }
       - { label: "Body", name: "body", widget: "markdown" }
