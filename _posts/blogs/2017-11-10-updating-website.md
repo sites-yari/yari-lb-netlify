@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Updating Yarilabs Website"
-date: 2017-11-10 15:53:28 +0100
+date: "2017-11-10"
 tag: ["blog"]
 permalink: /blogs/updating-yarilabs-website
 author: victor
