@@ -1,63 +1,57 @@
-# Author details.
 team:
-  - 
-    name:  Emanuel Mota
+  - bio: Experienced Fullstack engineer ...
     desig: Founder & Developer
-    email:  emanuel@yarilabs.com
-    bio:    "Experienced Fullstack engineer ..."
-    linkedin: https://www.linkedin.com/in/emanuel-mota-7371613/
-    github:  http://github.com/emanuel
-    web:    http://www.yarilabs.com
-    twitter: http://twitter.com/emota7
-
-  - 
-    name:   Filipe Rocha
-    desig:  Senior Fullstack Engineer
-    email:  filipe@yarilabs.com
-    bio:    "Experienced Fullstack engineer with very deep understanding of..."
-    linkedin: https://www.linkedin.com/in/filiperocha
-    github:  http://github.com/realyarilabs
-    web:    http://github.com/realyarilabs
-    twitter: https://twitter.com/yarilabs
-
-  - 
-    name:   Helder Pinto
-    desig:  Frontend and Mobile Developer
-    email:  helder@yarilabs.com
-    bio:    "Elm and Javascript Developer"
-    linkedin: https://www.linkedin.com/in/helderjnpinto/
-    github:  http://github.com/realyarilabs
-    web:    http://github.com/realyarilabs
-    twitter: https://twitter.com/yarilabs
-
-  - 
-    name:   Ricardo Justo
-    desig:  Ruby on Rails engineer
-    email:  ricardo@yarilabs.com
-    bio:    "Ruby on Rails Developer"
-    linkedin: https://www.linkedin.com/in/ricardojusto
-    github:  http://github.com/realyarilabs
-    web:    http://github.com/realyarilabs
-    twitter: https://twitter.com/yarilabs
-
-  - 
-    name:   Victor 
-    desig:  trainee
-    email:  victor@yarilabs.com
-    bio: "trainee"   
-    linkedin: #
-    github:  http://github.com/realyarilabs
-    web:    http://github.com/realyarilabs
-    twitter: https://twitter.com/yarilabs
-
-  - 
-    name:   Xavier
-    desig:  trainee
-    email:  xavier@yarilabs.com
-    bio: "trainee"   
-    linkedin: #
-    github:  http://github.com/realyarilabs
-    web:    http://github.com/realyarilabs
-    twitter: https://twitter.com/yarilabs
-
-
+    email: emanuel@yarilabs.com
+    github: 'http://github.com/emanuel'
+    linkedin: 'https://www.linkedin.com/in/emanuel-mota-7371613/'
+    name: Emanuel Mota
+    twitter: 'http://twitter.com/emota7'
+    web: 'http://www.yarilabs.com'
+  - bio: Experienced Fullstack engineer with very deep understanding of...
+    desig: Senior Fullstack Engineer
+    email: filipe@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'https://www.linkedin.com/in/filiperocha'
+    name: Filipe Rocha
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
+  - bio: Elm and Javascript Developer
+    desig: Frontend and Mobile Developer
+    email: helder@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'https://www.linkedin.com/in/helderjnpinto/'
+    name: Helder Pinto
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
+  - bio: Ruby on Rails Developer
+    desig: Ruby on Rails engineer
+    email: ricardo@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'https://www.linkedin.com/in/ricardojusto'
+    name: Ricardo Justo
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
+  - bio: trainee
+    desig: trainee
+    email: victor@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'http://github.com/realyarilabs'
+    name: Victor
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
+  - bio: trainee
+    desig: trainee
+    email: xavier@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'http://github.com/realyarilabs'
+    name: Xavier
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
+  - bio: trainee
+    desig: trainee
+    email: pedro@yarilabs.com
+    github: 'http://github.com/realyarilabs'
+    linkedin: 'http://github.com/realyarilabs'
+    name: Pedro
+    twitter: 'https://twitter.com/yarilabs'
+    web: 'http://github.com/realyarilabs'
