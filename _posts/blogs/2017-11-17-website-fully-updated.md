@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Website fully updated
-date: 2017-11-17 16:51:03 +0100
+date: "2017-11-17"
 tag: ["blog"]
 permalink: /blogs/website-fully-updated
 author: helder
