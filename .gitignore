@@ -7,3 +7,5 @@ assets/semantic
 assets/raw
 .gulp-scss-cache
 s3_website.yml
+package-lock.json
+package.json
