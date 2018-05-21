@@ -32,7 +32,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "work" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "work" } 
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Subtitulo", name: "subtitle", widget: "string" }
       - { label: "Data de Publicação", name: "data", widget: "date", format: "DD-MM-YYYY" }
