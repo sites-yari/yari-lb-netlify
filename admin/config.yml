@@ -8,25 +8,25 @@ backend:
 
 collections:
 #====================| POSTS |===================================================|  
-  # - name: "blogs" #-----| Blogs (issue with TAGS)|------------------------------|
-  #   label: "Blogs"
-  #   folder: "_posts/blogs"
-  #   create: true
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   fields:
-  #     - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-  #     - { label: "Titulo", name: "title", widget: "string" }
-  #     - { label: "Data de publicação", name: "date", widget: "date", format: "YYYY-MM-DD" }
-  #     - { label: "TAG", name: "tag", widget: "markdown", default: '["blog"]' }
-  #     - { label: "Autor", name: "author", widget: "string" }
-  #     - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
-  #     - { label: "Class", name: "class", widget: "hidden", default: "blog" }
-  #     - { label: "Meta", name: "meta", widget: "hidden", default: "no info" }
-  #     - { label: "SubTitulo", name: "subtitle", widget: "string", default: "" }
-  #     - { label: "Cover", name: "image_path", widget: "image" }
-  #     - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blogs" #-----| Blogs (issue with TAGS)|------------------------------|
+    label: "Blogs"
+    folder: "_posts/blogs"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Data de publicação", name: "date", widget: "date", format: "YYYY-MM-DD" }
+      - { label: "TAG", name: "tag", widget: "markdown", default: '["blog"]' }
+      - { label: "Autor", name: "author", widget: "string" }
+      - { label: "Endereço / Link", name: "permalink", widget: "string", default: "/blogs/(nome)" }
+      - { label: "Class", name: "class", widget: "hidden", default: "blog" }
+      - { label: "Meta", name: "meta", widget: "hidden", default: "no info", required: false }
+      - { label: "SubTitulo", name: "subtitle", widget: "string", default: "", required: false }
+      - { label: "Cover", name: "image_path", widget: "image", default: "../../assets/uploads/nopic_yari.jpg" }
+      - { label: "Body", name: "body", widget: "markdown" }
       
-  - name: "work" #-----| Artigos |-------------------------------|
+  - name: "work" #-----| Artigos (issue with CATEGORIES) |-------------------------------|
     label: "Portfolio / work"
     folder: "_posts/work"
     create: true
