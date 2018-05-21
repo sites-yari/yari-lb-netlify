@@ -2,7 +2,7 @@
 layout: blog
 title: "Updating Yarilabs Website"
 date: "2017-11-10"
-tag: ["blog"]
+tag: 
 permalink: /blogs/updating-yarilabs-website
 author: victor
 class: blog

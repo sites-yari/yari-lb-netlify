@@ -2,7 +2,7 @@
 layout: blog
 title: Website fully updated
 date: "2017-11-17"
-tag: ["blog"]
+tag: 
 permalink: /blogs/website-fully-updated
 author: helder
 class: blog
