@@ -1,4 +1,3 @@
-# require 'nokogiri'
 # require 'fastimage'
 
 # module Jekyll
