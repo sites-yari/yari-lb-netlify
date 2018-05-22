@@ -9,4 +9,4 @@ class: blog
 subtitle: subtitulo para ser inserido
 image_path: /assets/uploads/unit_yoshikage_kira_-kosaku_kawajiri-_-green-.png
 ---
-g a fag ad gdf gbda g sa df asdfsadgdf g asdf gdafgdagfasd 
+g a fag ad gdf gbda g sa df asdfsadgdf g asdf gdafgdagfasd s
